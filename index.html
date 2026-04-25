@@ -14,15 +14,71 @@
       content="Browse Canva shortcuts by section, switch between Mac and Windows, search instantly, and print a clean desk reference."
     />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="" />
+    <meta property="og:url" content="https://canva-vault.netlify.app/" />
     <meta property="og:site_name" content="Canva Vault" />
+    <meta property="og:image" content="https://canva-vault.netlify.app/og-preview.svg" />
+    <meta property="og:image:type" content="image/svg+xml" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Canva Keyboard Shortcuts — Complete Cheat Sheet (Mac &amp; Windows)" />
     <meta
       name="twitter:description"
       content="Canva Vault is a searchable, printable cheat sheet for Canva keyboard shortcuts on Mac and Windows."
     />
-    <link rel="canonical" href="" />
+    <meta name="twitter:image" content="https://canva-vault.netlify.app/og-preview.svg" />
+    <link rel="canonical" href="https://canva-vault.netlify.app/" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "Canva Keyboard Shortcuts — Complete Cheat Sheet (Mac & Windows)",
+        "description": "Canva Vault is a searchable and printable reference for Canva keyboard shortcuts on Mac and Windows.",
+        "url": "https://canva-vault.netlify.app/",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "name": "Basic",
+            "text": "General Canva shortcuts for editing, selection, page actions, and quick actions."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Elements",
+            "text": "Element shortcuts for grouping, locking, arranging, moving, resizing, and rotating."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Text",
+            "text": "Text shortcuts for formatting, alignment, spacing, and list controls."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Video",
+            "text": "Video shortcuts for playback, mute, and loop controls."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Zoom",
+            "text": "Zoom shortcuts for zoom in, zoom out, actual size, fit, and fill views."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Page view",
+            "text": "Page view shortcuts for rulers, guides, scrolling, thumbnails, grid, and presentation mode."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Comments",
+            "text": "Comment shortcuts for creating, editing, and submitting comments."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Desktop app",
+            "text": "Desktop app shortcuts for tabs, windows, app controls, and interface zoom."
+          }
+        ]
+      }
+    </script>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
@@ -1352,14 +1408,6 @@
           : "<strong>" + visible + "</strong> loaded across " + CATEGORY_ORDER.length + " sections.";
       }
 
-      function updateMeta() {
-        const currentURL = window.location.href;
-        const ogUrl = document.querySelector('meta[property="og:url"]');
-        const canonical = document.querySelector('link[rel="canonical"]');
-        if (ogUrl) ogUrl.setAttribute("content", currentURL);
-        if (canonical) canonical.setAttribute("href", currentURL);
-      }
-
       function buildStructuredData() {
         return {
           "@context": "https://schema.org",
@@ -1378,6 +1426,9 @@
       }
 
       function injectStructuredData() {
+        if (document.querySelector('script[type="application/ld+json"]')) {
+          return;
+        }
         const script = document.createElement("script");
         script.type = "application/ld+json";
         script.textContent = JSON.stringify(buildStructuredData());
@@ -1507,20 +1558,6 @@
       function init() {
         state.preferredOS = detectPreferredOS() || "mac";
         updateOSToggle();
-        updateMeta();
-        injectStructuredData();
-        renderNav();
-        renderSections();
-        attachEvents();
-      }
-
-      init();
-    </script>
-  </body>
-</html>
-ml>
-teOSToggle();
-        updateMeta();
         injectStructuredData();
         renderNav();
         renderSections();
