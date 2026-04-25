@@ -1,0 +1,670 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e6]:
+    - paragraph [ref=e8]:
+      - link "Skip to main content" [ref=e9] [cursor=pointer]:
+        - /url: "#_R_rH1_"
+        - generic [ref=e10]: Skip to main content
+    - banner [ref=e13]:
+      - generic [ref=e15]:
+        - link "Canva home" [ref=e18] [cursor=pointer]:
+          - /url: https://www.canva.com/
+          - generic [ref=e19]: Canva home
+        - generic [ref=e29]:
+          - button "Sign up" [ref=e31] [cursor=pointer]:
+            - generic [ref=e32]: Sign up
+          - button "Log in" [ref=e33] [cursor=pointer]:
+            - generic [ref=e34]: Log in
+    - main [ref=e35]:
+      - generic [ref=e39]:
+        - generic [ref=e41]:
+          - link "Help Center" [ref=e43] [cursor=pointer]:
+            - /url: /help/
+            - heading "Help Center" [level=3] [ref=e44]
+          - search [ref=e48]:
+            - generic [ref=e51]:
+              - generic [ref=e52]:
+                - generic:
+                  - img
+              - combobox "Search the Canva Help Center" [ref=e53]
+            - button "Submit Search" [ref=e55]
+        - separator [ref=e57]
+        - generic [ref=e60]:
+          - navigation "Breadcrumb" [ref=e63]:
+            - list [ref=e64]:
+              - listitem [ref=e65]:
+                - link "Help Center" [ref=e66] [cursor=pointer]:
+                  - /url: /help/
+                - generic:
+                  - img
+              - listitem [ref=e67]:
+                - link "Account settings" [ref=e68] [cursor=pointer]:
+                  - /url: /help/accounts/
+                - generic:
+                  - img
+              - listitem [ref=e69]:
+                - link "Accessibility settings" [ref=e70] [cursor=pointer]:
+                  - /url: /help/accessibility-settings/
+                - generic:
+                  - img
+              - listitem [ref=e71]:
+                - generic [ref=e72]: Canva keyboard shortcuts
+          - article [ref=e75]:
+            - heading "Canva keyboard shortcuts" [level=1] [ref=e76]
+            - navigation [ref=e77]:
+              - paragraph [ref=e79]: In this article
+              - menu [ref=e81]:
+                - menuitem "Basic keyboard shortcuts" [ref=e82] [cursor=pointer]:
+                  - generic [ref=e83]:
+                    - generic [ref=e84]:
+                      - generic:
+                        - img
+                    - paragraph [ref=e86]: Basic keyboard shortcuts
+                - menuitem "Element shortcuts" [ref=e87] [cursor=pointer]:
+                  - generic [ref=e88]:
+                    - generic [ref=e89]:
+                      - generic:
+                        - img
+                    - paragraph [ref=e91]: Element shortcuts
+                - menuitem "Text shortcuts" [ref=e92] [cursor=pointer]:
+                  - generic [ref=e93]:
+                    - generic [ref=e94]:
+                      - generic:
+                        - img
+                    - paragraph [ref=e96]: Text shortcuts
+                - menuitem "Video shortcuts" [ref=e97] [cursor=pointer]:
+                  - generic [ref=e98]:
+                    - generic [ref=e99]:
+                      - generic:
+                        - img
+                    - paragraph [ref=e101]: Video shortcuts
+                - menuitem "Zoom keyboard shortcuts" [ref=e102] [cursor=pointer]:
+                  - generic [ref=e103]:
+                    - generic [ref=e104]:
+                      - generic:
+                        - img
+                    - paragraph [ref=e106]: Zoom keyboard shortcuts
+                - menuitem "Page view keyboard shortcuts" [ref=e107] [cursor=pointer]:
+                  - generic [ref=e108]:
+                    - generic [ref=e109]:
+                      - generic:
+                        - img
+                    - paragraph [ref=e111]: Page view keyboard shortcuts
+                - menuitem "Comment shortcuts" [ref=e112] [cursor=pointer]:
+                  - generic [ref=e113]:
+                    - generic [ref=e114]:
+                      - generic:
+                        - img
+                    - paragraph [ref=e116]: Comment shortcuts
+                - menuitem "Add and edit comments" [ref=e117] [cursor=pointer]:
+                  - generic [ref=e118]:
+                    - generic [ref=e119]:
+                      - generic:
+                        - img
+                    - paragraph [ref=e121]: Add and edit comments
+                - menuitem "Desktop app shortcuts" [ref=e122] [cursor=pointer]:
+                  - generic [ref=e123]:
+                    - generic [ref=e124]:
+                      - generic:
+                        - img
+                    - paragraph [ref=e126]: Desktop app shortcuts
+            - separator [ref=e128]
+            - paragraph [ref=e130]: Here’s your quick reference for all Canva keyboard shortcuts on Windows and Mac. Discover shortcuts for editing, text formatting, arranging elements, navigating the canvas, zooming, and managing comments, videos, and other features in the desktop app.
+            - generic [ref=e133]:
+              - link "Copy link to heading" [ref=e136] [cursor=pointer]:
+                - /url: "#basic-keyboard-shortcuts"
+                - generic [ref=e137]:
+                  - generic:
+                    - img
+              - heading "Basic keyboard shortcuts" [level=3] [ref=e138]
+            - generic [ref=e140]:
+              - tablist [ref=e142]:
+                - tab "macOS" [selected] [ref=e144] [cursor=pointer]:
+                  - generic [ref=e146]:
+                    - generic [ref=e148]: macOS
+                    - generic [ref=e150]: macOS
+                - tab "Windows" [ref=e152] [cursor=pointer]:
+                  - generic [ref=e154]:
+                    - generic [ref=e156]: Windows
+                    - generic [ref=e158]: Windows
+              - tabpanel [ref=e160]:
+                - generic [ref=e161]:
+                  - paragraph [ref=e162]: "Undo: Command ⌘ + Z"
+                  - paragraph [ref=e163]: "Redo: Command ⌘ + Y"
+                  - paragraph [ref=e164]: "Save: Command ⌘ + S"
+                  - paragraph [ref=e165]: "Select all: Command ⌘ + A"
+                  - paragraph [ref=e166]: "Show or hide sidebar: Command ⌘ + /"
+                  - paragraph [ref=e167]: "Add text: T"
+                  - paragraph [ref=e168]: "Add rectangle: R"
+                  - paragraph [ref=e169]: "Add line: L"
+                  - paragraph [ref=e170]: "Add circle: C"
+                  - paragraph [ref=e171]: "Add link: Command ⌘ + K"
+                  - paragraph [ref=e172]: "Add emoji (Canva Docs and comments only): Shift + ;"
+                  - paragraph [ref=e173]: "Add empty page: Command ⌘ + Return"
+                  - paragraph [ref=e174]: "Delete empty page: Command ⌘ + Delete"
+                  - paragraph [ref=e175]: "Navigate to toolbar: Command ⌘ + F1"
+                  - paragraph [ref=e176]: "Skip to canvas: Command ⌘ + F2"
+                  - paragraph [ref=e177]:
+                    - link "Quick actions shortcut" [ref=e178] [cursor=pointer]:
+                      - /url: /help/slash-magic-shortcut-commands/
+                    - text: ": / or Command ⌘ + E"
+            - generic [ref=e181]:
+              - link "Copy link to heading" [ref=e184] [cursor=pointer]:
+                - /url: "#element-shortcuts"
+                - generic [ref=e185]:
+                  - generic:
+                    - img
+              - heading "Element shortcuts" [level=3] [ref=e186]
+            - generic [ref=e188]:
+              - tablist [ref=e190]:
+                - tab "macOS" [selected] [ref=e192] [cursor=pointer]:
+                  - generic [ref=e194]:
+                    - generic [ref=e196]: macOS
+                    - generic [ref=e198]: macOS
+                - tab "Windows" [ref=e200] [cursor=pointer]:
+                  - generic [ref=e202]:
+                    - generic [ref=e204]: Windows
+                    - generic [ref=e206]: Windows
+              - tabpanel [ref=e208]:
+                - generic [ref=e209]:
+                  - paragraph [ref=e210]: "Delete selected elements: Delete"
+                  - paragraph [ref=e211]: "Group elements: Command-G"
+                  - paragraph [ref=e212]: "Ungroup elements: Command-Shift-G"
+                  - paragraph [ref=e213]: "Lock element: Option-Shift-L"
+                  - paragraph [ref=e214]: "Justify elements-level: Command-Shift-J"
+                  - paragraph [ref=e215]: "Arrange elements forward: Command-]"
+                  - paragraph [ref=e216]: "Arrange elements backward: Command-["
+                  - paragraph [ref=e217]: "Arrange elements to front: Option-Command-]"
+                  - paragraph [ref=e218]: "Arrange elements to back: Option-Command-["
+                  - paragraph [ref=e219]: "Tidy up elements: Shift-Command-T"
+                  - paragraph [ref=e220]: "Select next/previous elements: Tab or Shift-Tab"
+                  - paragraph [ref=e221]: "Move left (small): Arrow left"
+                  - paragraph [ref=e222]: "Move right (small): Arrow Right"
+                  - paragraph [ref=e223]: "Move up (small): Arrow Up"
+                  - paragraph [ref=e224]: "Move down (small): Arrow Down"
+                  - paragraph [ref=e225]: "Move left (large): Shift-Arrow left"
+                  - paragraph [ref=e226]: "Move right (large): Shift-Arrow Right"
+                  - paragraph [ref=e227]: "Move up (large): Shift-Arrow Up"
+                  - paragraph [ref=e228]: "Move down (large): Shift-Arrow Down"
+                  - paragraph [ref=e229]: "Rotate left (small): ,Rotate right (small): ."
+                  - paragraph [ref=e230]: "Rotate left (large): Shift- ,"
+                  - paragraph [ref=e231]: "Rotate right (large): Shift- ."
+                  - paragraph [ref=e232]: "Resize left (small): Command-Arrow Left"
+                  - paragraph [ref=e233]: "Resize right (small): Command-Arrow Right"
+                  - paragraph [ref=e234]: "Resize up (small): Command-Arrow Up"
+                  - paragraph [ref=e235]: "Resize down (small): Command-Arrow Down"
+                  - paragraph [ref=e236]: "Resize left (large): Shift-Command-Arrow Left"
+                  - paragraph [ref=e237]: "Resize right (large): Shift-Command-Arrow Right"
+                  - paragraph [ref=e238]: "Resize up (large): Shift-Command-Arrow Up"
+                  - paragraph [ref=e239]: "Resize down (large): Shift-Command-Arrow Down"
+            - generic [ref=e242]:
+              - link "Copy link to heading" [ref=e245] [cursor=pointer]:
+                - /url: "#text-shortcuts"
+                - generic [ref=e246]:
+                  - generic:
+                    - img
+              - heading "Text shortcuts" [level=3] [ref=e247]
+            - generic [ref=e249]:
+              - tablist [ref=e251]:
+                - tab "macOS" [selected] [ref=e253] [cursor=pointer]:
+                  - generic [ref=e255]:
+                    - generic [ref=e257]: macOS
+                    - generic [ref=e259]: macOS
+                - tab "Windows" [ref=e261] [cursor=pointer]:
+                  - generic [ref=e263]:
+                    - generic [ref=e265]: Windows
+                    - generic [ref=e267]: Windows
+              - tabpanel [ref=e269]:
+                - generic [ref=e270]:
+                  - paragraph [ref=e271]: "Open font menu: Shift-Command ⌘-F"
+                  - paragraph [ref=e272]: "Find and replace: Command ⌘-F"
+                  - paragraph [ref=e273]: "Bold text: Command ⌘-B"
+                  - paragraph [ref=e274]: "Italicize text: Command ⌘-I"
+                  - paragraph [ref=e275]: "Underline: Command ⌘-U"
+                  - paragraph [ref=e276]: "Uppercase: Shift-Command ⌘-K"
+                  - paragraph [ref=e277]: "Left align: Shift-Command ⌘-L"
+                  - paragraph [ref=e278]: "Center align: Shift-Command ⌘-C"
+                  - paragraph [ref=e279]: "Right align: Shift-Command ⌘-R"
+                  - paragraph [ref=e280]: "Decrease font size by one: Shift-Command ⌘-,"
+                  - paragraph [ref=e281]: "Increase font size by one: Shift-Command ⌘-."
+                  - paragraph [ref=e282]: "Decrease line spacing: Option⌥-Command ⌘-Down"
+                  - paragraph [ref=e283]: "Increase line spacing: Option⌥-Command ⌘-Up"
+                  - paragraph [ref=e284]: "Decrease letter spacing: Option⌥-Command ⌘+,"
+                  - paragraph [ref=e285]: "Increase letter spacing: Option⌥-Command ⌘-."
+                  - paragraph [ref=e286]: "Anchor text to top: Command ⌘-Shift-H"
+                  - paragraph [ref=e287]: "Anchor text to middle: Command ⌘-Shift-M"
+                  - paragraph [ref=e288]: "Anchor text to bottom: Command ⌘-Shift-B"
+                  - paragraph [ref=e289]: "Numbered list: Command ⌘-Shift-7"
+                  - paragraph [ref=e290]: "Bulleted list: Command ⌘-Shift-8"
+                  - paragraph [ref=e291]: "Copy text style: Option⌥-Command ⌘-C"
+                  - paragraph [ref=e292]: "Paste text style: Option⌥-Command ⌘-V"
+            - generic [ref=e295]:
+              - link "Copy link to heading" [ref=e298] [cursor=pointer]:
+                - /url: "#heading--video-shortcuts"
+                - generic [ref=e299]:
+                  - generic:
+                    - img
+              - heading "Video shortcuts" [level=3] [ref=e300]
+            - generic [ref=e302]:
+              - tablist [ref=e304]:
+                - tab "macOS" [selected] [ref=e306] [cursor=pointer]:
+                  - generic [ref=e308]:
+                    - generic [ref=e310]: macOS
+                    - generic [ref=e312]: macOS
+                - tab "Windows" [ref=e314] [cursor=pointer]:
+                  - generic [ref=e316]:
+                    - generic [ref=e318]: Windows
+                    - generic [ref=e320]: Windows
+              - tabpanel [ref=e322]:
+                - list [ref=e324]:
+                  - listitem [ref=e325]: "Play/pause video: Space"
+                  - listitem [ref=e326]: "Mute/unmute video: M"
+                  - listitem [ref=e327]: "Loop video: Option-Command-L"
+            - generic [ref=e330]:
+              - link "Copy link to heading" [ref=e333] [cursor=pointer]:
+                - /url: "#heading--zoom-keyboard-shortcuts"
+                - generic [ref=e334]:
+                  - generic:
+                    - img
+              - heading "Zoom keyboard shortcuts" [level=3] [ref=e335]
+            - generic [ref=e337]:
+              - tablist [ref=e339]:
+                - tab "macOS" [selected] [ref=e341] [cursor=pointer]:
+                  - generic [ref=e343]:
+                    - generic [ref=e345]: macOS
+                    - generic [ref=e347]: macOS
+                - tab "Windows" [ref=e349] [cursor=pointer]:
+                  - generic [ref=e351]:
+                    - generic [ref=e353]: Windows
+                    - generic [ref=e355]: Windows
+              - tabpanel [ref=e357]:
+                - generic [ref=e358]:
+                  - paragraph [ref=e359]: "Zoom in: Command ⌘- +"
+                  - paragraph [ref=e360]: "Zoom out: Command ⌘- -"
+                  - paragraph [ref=e361]: "Zoom to actual size: Command ⌘-0"
+                  - paragraph [ref=e362]: "Zoom to fit: Option⌥-Command ⌘-0"
+                  - paragraph [ref=e363]: "Zoom to fill: Shift-Command ⌘-0"
+            - generic [ref=e366]:
+              - link "Copy link to heading" [ref=e369] [cursor=pointer]:
+                - /url: "#page-view-keyboard-shortcuts"
+                - generic [ref=e370]:
+                  - generic:
+                    - img
+              - heading "Page view keyboard shortcuts" [level=3] [ref=e371]
+            - generic [ref=e373]:
+              - tablist [ref=e375]:
+                - tab "macOS" [selected] [ref=e377] [cursor=pointer]:
+                  - generic [ref=e379]:
+                    - generic [ref=e381]: macOS
+                    - generic [ref=e383]: macOS
+                - tab "Windows" [ref=e385] [cursor=pointer]:
+                  - generic [ref=e387]:
+                    - generic [ref=e389]: Windows
+                    - generic [ref=e391]: Windows
+              - tabpanel [ref=e393]:
+                - generic [ref=e394]:
+                  - paragraph [ref=e395]: "Show rulers and guides: Shift + R"
+                  - paragraph [ref=e396]: "Scrolling view: Option ⌥ + Command ⌘ + 1"
+                  - paragraph [ref=e397]: "Thumbnail view: Option ⌥ + Command ⌘ + 2"
+                  - paragraph [ref=e398]: "Grid view: Option ⌥ + Command ⌘ + 3"
+                  - paragraph [ref=e399]: "Presentation mode: Option ⌥ + Command + P"
+            - generic [ref=e402]:
+              - link "Copy link to heading" [ref=e405] [cursor=pointer]:
+                - /url: "#comment-shortcuts"
+                - generic [ref=e406]:
+                  - generic:
+                    - img
+              - heading "Comment shortcuts" [level=3] [ref=e407]
+            - generic [ref=e410]:
+              - link "Copy link to heading" [ref=e413] [cursor=pointer]:
+                - /url: "#add-and-edit-comments"
+                - generic [ref=e414]:
+                  - generic:
+                    - img
+              - heading "Add and edit comments" [level=3] [ref=e415]
+            - generic [ref=e417]:
+              - tablist [ref=e419]:
+                - tab "macOS" [selected] [ref=e421] [cursor=pointer]:
+                  - generic [ref=e423]:
+                    - generic [ref=e425]: macOS
+                    - generic [ref=e427]: macOS
+                - tab "Windows" [ref=e429] [cursor=pointer]:
+                  - generic [ref=e431]:
+                    - generic [ref=e433]: Windows
+                    - generic [ref=e435]: Windows
+              - tabpanel [ref=e437]:
+                - generic [ref=e438]:
+                  - paragraph [ref=e439]: "Add comment: Option + Command + N"
+                  - paragraph [ref=e440]: "Add emoji to a comment: Shift + ;"
+                  - paragraph [ref=e441]: "Start new line in your comment: Return or Shift + Return"
+                  - paragraph [ref=e442]: "Submit comment: Command + Return"
+            - generic [ref=e445]:
+              - link "Copy link to heading" [ref=e448] [cursor=pointer]:
+                - /url: "#desktop-app-shortcuts"
+                - generic [ref=e449]:
+                  - generic:
+                    - img
+              - heading "Desktop app shortcuts" [level=3] [ref=e450]
+            - generic [ref=e452]:
+              - tablist [ref=e454]:
+                - tab "macOS app" [selected] [ref=e456] [cursor=pointer]:
+                  - generic [ref=e458]:
+                    - generic [ref=e460]: macOS app
+                    - generic [ref=e462]: macOS app
+                - tab "Windows app" [ref=e464] [cursor=pointer]:
+                  - generic [ref=e466]:
+                    - generic [ref=e468]: Windows app
+                    - generic [ref=e470]: Windows app
+              - tabpanel [ref=e472]:
+                - generic [ref=e473]:
+                  - paragraph [ref=e474]: "Quit the whole Canva app: Command-Q"
+                  - paragraph [ref=e475]: "Reload the whole app: Command-R"
+                  - paragraph [ref=e476]: "Enter full-screen mode: ^-Command-F"
+                  - paragraph [ref=e477]: "Close the current tab: Command-W"
+                  - paragraph [ref=e478]: "Select next tab: Option-Command-Right"
+                  - paragraph [ref=e479]: "Select previous tab: Option-Command-Left"
+                  - paragraph [ref=e480]: "Re-open last closed tab: Command-Shift-T"
+                  - paragraph [ref=e481]: "Create new design: Command-T"
+                  - paragraph [ref=e482]: "Switch tabs to focus on a design tab from 1-8: Command-1...8"
+                  - paragraph [ref=e483]: "Switch to the last tab: Command-9"
+                  - paragraph [ref=e484]: "Open the Settings page: Command-,"
+                  - paragraph [ref=e485]: "Open the Home page: Command-Shift-H"
+                  - paragraph [ref=e486]: "Zoom in app interface: Command-Shift-+"
+                  - paragraph [ref=e487]: "Zoom out app interface: Command-Shift--"
+                  - paragraph [ref=e488]: "Reset app interface scaling to default: Shift-Command-0"
+                  - paragraph [ref=e489]: "Close window: Shift-Command-W"
+            - generic [ref=e494]:
+              - heading "How would you rate the help you received from this article?" [level=4] [ref=e495]
+              - radiogroup "How would you rate the help you received from this article?" [ref=e496]:
+                - generic [ref=e497]:
+                  - radio "Good" [ref=e498] [cursor=pointer]:
+                    - generic [ref=e500]:
+                      - img [ref=e505]
+                      - generic [ref=e513]: Good
+                  - radio "Not so good" [ref=e514] [cursor=pointer]:
+                    - generic [ref=e516]:
+                      - img [ref=e521]
+                      - generic [ref=e529]: Not so good
+            - heading "People also viewed" [level=4] [ref=e532]
+        - paragraph [ref=e616]:
+          - link "Skip to end of footer" [ref=e617] [cursor=pointer]:
+            - /url: "#_R_3derH1_"
+            - generic [ref=e618]: Skip to end of footer
+        - generic [ref=e621]:
+          - generic [ref=e628]:
+            - heading "Download Canva for free" [level=2] [ref=e633]
+            - navigation [ref=e638]:
+              - list [ref=e640]:
+                - listitem [ref=e641]:
+                  - heading "Product" [level=2] [ref=e643]:
+                    - generic [ref=e644]: Product
+                  - list "Product" [ref=e645]:
+                    - listitem [ref=e646]:
+                      - link "Latest launches" [ref=e647] [cursor=pointer]:
+                        - /url: https://www.canva.com/launches/
+                        - generic [ref=e648]: Latest launches
+                    - listitem [ref=e649]:
+                      - link "Visual Suite" [ref=e650] [cursor=pointer]:
+                        - /url: https://www.canva.com/visual-suite/
+                        - generic [ref=e651]: Visual Suite
+                    - listitem [ref=e652]:
+                      - link "Magic Studio" [ref=e653] [cursor=pointer]:
+                        - /url: https://www.canva.com/magic/
+                        - generic [ref=e654]: Magic Studio
+                    - listitem [ref=e655]:
+                      - link "Brand management" [ref=e656] [cursor=pointer]:
+                        - /url: https://www.canva.com/business/features/brand/
+                        - generic [ref=e657]: Brand management
+                    - listitem [ref=e658]:
+                      - link "Social media" [ref=e659] [cursor=pointer]:
+                        - /url: https://www.canva.com/social-media/
+                        - generic [ref=e660]: Social media
+                    - listitem [ref=e661]:
+                      - link "Features" [ref=e662] [cursor=pointer]:
+                        - /url: https://www.canva.com/features/
+                        - generic [ref=e663]: Features
+                    - listitem [ref=e664]:
+                      - link "Print" [ref=e665] [cursor=pointer]:
+                        - /url: https://www.canva.com/print/
+                        - generic [ref=e666]: Print
+                    - listitem [ref=e667]:
+                      - link "Apps Marketplace" [ref=e668] [cursor=pointer]:
+                        - /url: https://www.canva.com/apps/
+                        - generic [ref=e669]: Apps Marketplace
+                    - listitem [ref=e670]:
+                      - link "Affinity" [ref=e671] [cursor=pointer]:
+                        - /url: https://www.affinity.studio/
+                        - generic [ref=e672]: Affinity
+                - listitem [ref=e678]:
+                  - heading "Plans" [level=2] [ref=e680]:
+                    - generic [ref=e681]: Plans
+                  - list "Plans" [ref=e682]:
+                    - listitem [ref=e683]:
+                      - link "Pricing" [ref=e684] [cursor=pointer]:
+                        - /url: https://www.canva.com/pricing/
+                        - generic [ref=e685]: Pricing
+                    - listitem [ref=e686]:
+                      - link "Pro" [ref=e687] [cursor=pointer]:
+                        - /url: https://www.canva.com/pro/
+                        - generic [ref=e688]: Pro
+                    - listitem [ref=e689]:
+                      - link "Business" [ref=e690] [cursor=pointer]:
+                        - /url: https://www.canva.com/canva-business/
+                        - generic [ref=e691]: Business
+                    - listitem [ref=e692]:
+                      - link "Enterprise" [ref=e693] [cursor=pointer]:
+                        - /url: https://www.canva.com/enterprise/
+                        - generic [ref=e694]: Enterprise
+                    - listitem [ref=e695]:
+                      - link "Education" [ref=e696] [cursor=pointer]:
+                        - /url: https://www.canva.com/education/
+                        - generic [ref=e697]: Education
+                    - listitem [ref=e698]:
+                      - link "Higher education" [ref=e699] [cursor=pointer]:
+                        - /url: https://www.canva.com/for-campus/
+                        - generic [ref=e700]: Higher education
+                    - listitem [ref=e701]:
+                      - link "Nonprofits" [ref=e702] [cursor=pointer]:
+                        - /url: https://www.canva.com/canva-for-nonprofits/
+                        - generic [ref=e703]: Nonprofits
+                    - listitem [ref=e704]:
+                      - link "Contact Sales" [ref=e705] [cursor=pointer]:
+                        - /url: https://www.canva.com/contact-sales/
+                        - generic [ref=e706]: Contact Sales
+                - listitem [ref=e707]:
+                  - heading "About" [level=2] [ref=e709]:
+                    - generic [ref=e710]: About
+                  - list "About" [ref=e711]:
+                    - listitem [ref=e712]:
+                      - link "About Canva" [ref=e713] [cursor=pointer]:
+                        - /url: https://www.canva.com/about/
+                        - generic [ref=e714]: About Canva
+                    - listitem [ref=e715]:
+                      - link "Newsroom" [ref=e716] [cursor=pointer]:
+                        - /url: https://www.canva.com/newsroom/news/
+                        - generic [ref=e717]: Newsroom
+                    - listitem [ref=e718]:
+                      - link "Events" [ref=e719] [cursor=pointer]:
+                        - /url: https://www.canva.com/events/
+                        - generic [ref=e720]: Events
+                    - listitem [ref=e721]:
+                      - link "Canva Originals" [ref=e722] [cursor=pointer]:
+                        - /url: https://www.canva.com/originals/
+                        - generic [ref=e723]: Canva Originals
+                    - listitem [ref=e724]:
+                      - link "Careers" [ref=e725] [cursor=pointer]:
+                        - /url: https://www.lifeatcanva.com/en
+                        - generic [ref=e726]: Careers
+                    - listitem [ref=e732]:
+                      - link "Social impact" [ref=e733] [cursor=pointer]:
+                        - /url: https://www.canva.com/step-two/
+                        - generic [ref=e734]: Social impact
+                    - listitem [ref=e735]:
+                      - link "Sustainability" [ref=e736] [cursor=pointer]:
+                        - /url: https://www.canva.com/sustainability/
+                        - generic [ref=e737]: Sustainability
+                    - listitem [ref=e738]:
+                      - link "Case studies" [ref=e739] [cursor=pointer]:
+                        - /url: https://www.canva.com/case-studies/
+                        - generic [ref=e740]: Case studies
+                - listitem [ref=e741]:
+                  - heading "Community" [level=2] [ref=e743]:
+                    - generic [ref=e744]: Community
+                  - list "Community" [ref=e745]:
+                    - listitem [ref=e746]:
+                      - link "Canva Communities" [ref=e747] [cursor=pointer]:
+                        - /url: https://www.canva.com/community/
+                        - generic [ref=e748]: Canva Communities
+                    - listitem [ref=e749]:
+                      - link "Creators" [ref=e750] [cursor=pointer]:
+                        - /url: https://www.canva.com/creators/
+                        - generic [ref=e751]: Creators
+                    - listitem [ref=e752]:
+                      - link "Affiliates" [ref=e753] [cursor=pointer]:
+                        - /url: https://www.canva.com/help/canva-affiliate-marketing-program/
+                        - generic [ref=e754]: Affiliates
+                    - listitem [ref=e755]:
+                      - link "Canva Represents Fund" [ref=e756] [cursor=pointer]:
+                        - /url: https://www.canva.com/canva-represents/
+                        - generic [ref=e757]: Canva Represents Fund
+                    - listitem [ref=e758]:
+                      - link "Content partners" [ref=e759] [cursor=pointer]:
+                        - /url: https://www.canva.com/partners/content/
+                        - generic [ref=e760]: Content partners
+                    - listitem [ref=e761]:
+                      - link "Business partner directory" [ref=e762] [cursor=pointer]:
+                        - /url: https://partners.canva.com/directory/
+                        - generic [ref=e763]: Business partner directory
+                    - listitem [ref=e764]:
+                      - link "Canva Developers" [ref=e765] [cursor=pointer]:
+                        - /url: https://www.canva.com/developers/
+                        - generic [ref=e766]: Canva Developers
+                - listitem [ref=e772]:
+                  - heading "Inspiration" [level=2] [ref=e774]:
+                    - generic [ref=e775]: Inspiration
+                  - list "Inspiration" [ref=e776]:
+                    - listitem [ref=e777]:
+                      - link "Design Trends" [ref=e778] [cursor=pointer]:
+                        - /url: https://www.canva.com/design-trends/
+                        - generic [ref=e779]: Design Trends
+                    - listitem [ref=e780]:
+                      - link "AI creativity podcast" [ref=e781] [cursor=pointer]:
+                        - /url: https://promptedpodcast.com/
+                        - generic [ref=e782]: AI creativity podcast
+                    - listitem [ref=e788]:
+                      - link "Learn blog" [ref=e789] [cursor=pointer]:
+                        - /url: https://www.canva.com/learn/
+                        - generic [ref=e790]: Learn blog
+                    - listitem [ref=e791]:
+                      - link "Template library" [ref=e792] [cursor=pointer]:
+                        - /url: https://www.canva.com/templates/
+                        - generic [ref=e793]: Template library
+                    - listitem [ref=e794]:
+                      - link "Font pairing" [ref=e795] [cursor=pointer]:
+                        - /url: https://www.canva.com/learn/the-ultimate-guide-to-font-pairing/
+                        - generic [ref=e796]: Font pairing
+                    - listitem [ref=e797]:
+                      - link "Color wheel" [ref=e798] [cursor=pointer]:
+                        - /url: https://www.canva.com/colors/color-wheel/
+                        - generic [ref=e799]: Color wheel
+                    - listitem [ref=e800]:
+                      - link "Colors" [ref=e801] [cursor=pointer]:
+                        - /url: https://www.canva.com/colors/
+                        - generic [ref=e802]: Colors
+                    - listitem [ref=e803]:
+                      - link "Color palette generator" [ref=e804] [cursor=pointer]:
+                        - /url: https://www.canva.com/colors/color-palette-generator/
+                        - generic [ref=e805]: Color palette generator
+                - listitem [ref=e806]:
+                  - heading "Help" [level=2] [ref=e808]:
+                    - generic [ref=e809]: Help
+                  - list "Help" [ref=e810]:
+                    - listitem [ref=e811]:
+                      - link "Help Center" [ref=e812] [cursor=pointer]:
+                        - /url: https://www.canva.com/help/
+                        - generic [ref=e813]: Help Center
+                    - listitem [ref=e814]:
+                      - link "Security" [ref=e815] [cursor=pointer]:
+                        - /url: https://www.canva.com/security/
+                        - generic [ref=e816]: Security
+                    - listitem [ref=e817]:
+                      - link "Trust Center" [ref=e818] [cursor=pointer]:
+                        - /url: https://www.canva.com/trust/
+                        - generic [ref=e819]: Trust Center
+                    - listitem [ref=e820]:
+                      - link "Canva Safe AI" [ref=e821] [cursor=pointer]:
+                        - /url: https://www.canva.com/safe-ai-canva-shield/
+                        - generic [ref=e822]: Canva Safe AI
+                    - listitem [ref=e823]:
+                      - link "Accessibility" [ref=e824] [cursor=pointer]:
+                        - /url: https://www.canva.com/accessibility/
+                        - generic [ref=e825]: Accessibility
+                    - listitem [ref=e826]:
+                      - link "Enterprise services" [ref=e827] [cursor=pointer]:
+                        - /url: https://www.canva.com/enterprise/professional-services/
+                        - generic [ref=e828]: Enterprise services
+                    - listitem [ref=e829]:
+                      - link "Design School" [ref=e830] [cursor=pointer]:
+                        - /url: https://www.canva.com/design-school/
+                        - generic [ref=e831]: Design School
+                    - listitem [ref=e837]:
+                      - link "Sitemap" [ref=e838] [cursor=pointer]:
+                        - /url: https://www.canva.com/sitemap/
+                        - generic [ref=e839]: Sitemap
+                - listitem [ref=e840]:
+                  - heading "Tools" [level=2] [ref=e842]:
+                    - generic [ref=e843]: Tools
+                  - list "Tools" [ref=e844]:
+                    - listitem [ref=e845]:
+                      - link "QR code generator" [ref=e846] [cursor=pointer]:
+                        - /url: https://www.canva.com/qr-code-generator/
+                        - generic [ref=e847]: QR code generator
+                    - listitem [ref=e848]:
+                      - link "AI logo generator" [ref=e849] [cursor=pointer]:
+                        - /url: https://www.canva.com/ai-logo-generator/
+                        - generic [ref=e850]: AI logo generator
+                    - listitem [ref=e851]:
+                      - link "Signature generator" [ref=e852] [cursor=pointer]:
+                        - /url: https://www.canva.com/signature-generator/
+                        - generic [ref=e853]: Signature generator
+                    - listitem [ref=e854]:
+                      - link "Business name generator" [ref=e855] [cursor=pointer]:
+                        - /url: https://www.canva.com/business-name-generator/
+                        - generic [ref=e856]: Business name generator
+                    - listitem [ref=e857]:
+                      - link "PDF converter" [ref=e858] [cursor=pointer]:
+                        - /url: https://www.canva.com/features/pdf-converter/
+                        - generic [ref=e859]: PDF converter
+                    - listitem [ref=e860]:
+                      - link "PDF to JPG converter" [ref=e861] [cursor=pointer]:
+                        - /url: https://www.canva.com/features/pdf-to-jpg-converter/
+                        - generic [ref=e862]: PDF to JPG converter
+                    - listitem [ref=e863]:
+                      - link "JPG to PDF converter" [ref=e864] [cursor=pointer]:
+                        - /url: https://www.canva.com/features/jpg-to-pdf-converter/
+                        - generic [ref=e865]: JPG to PDF converter
+                    - listitem [ref=e866]:
+                      - link "Graph maker" [ref=e867] [cursor=pointer]:
+                        - /url: https://www.canva.com/graphs/
+                        - generic [ref=e868]: Graph maker
+          - generic [ref=e870]:
+            - generic:
+              - button "English (US)" [ref=e879] [cursor=pointer]:
+                - generic [ref=e880]:
+                  - generic:
+                    - img
+                - generic [ref=e882]: English (US)
+              - paragraph [ref=e891]: © 2026 All Rights Reserved
+        - paragraph [ref=e893]:
+          - link "Skip to start of footer" [ref=e894] [cursor=pointer]:
+            - /url: "#_R_3der_"
+            - generic [ref=e895]: Skip to start of footer
+  - generic [ref=e896]: Suggestions will appear below the field as you type
+  - generic [ref=e897]: Copy link to heading
+  - generic [ref=e898]: Copy link to heading
+  - generic [ref=e899]: Copy link to heading
+  - generic [ref=e900]: Copy link to heading
+  - generic [ref=e901]: Copy link to heading
+  - generic [ref=e902]: Copy link to heading
+  - generic [ref=e903]: Copy link to heading
+  - generic [ref=e904]: Copy link to heading
+  - generic [ref=e905]: Copy link to heading

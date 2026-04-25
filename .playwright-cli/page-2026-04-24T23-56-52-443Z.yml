@@ -1,0 +1,1638 @@
+- generic [active] [ref=e1]:
+  - link "Skip to shortcuts" [ref=e2] [cursor=pointer]:
+    - /url: "#shortcut-sections"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic "Canva Vault" [ref=e5]:
+        - generic [ref=e6]: Canva Vault
+      - generic [ref=e7]:
+        - generic [ref=e8]: Search shortcuts
+        - img
+        - searchbox "Search shortcuts" [ref=e9]
+      - group "Preferred operating system" [ref=e10]:
+        - button "Mac" [ref=e11] [cursor=pointer]
+        - button "Windows" [pressed] [ref=e12] [cursor=pointer]
+      - generic [ref=e13]:
+        - button "Share" [ref=e14] [cursor=pointer]:
+          - img [ref=e15]
+          - text: Share
+        - button "Download as PDF" [ref=e17] [cursor=pointer]:
+          - img [ref=e18]
+          - text: Download as PDF
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - strong [ref=e22]: 102 shortcuts
+        - text: loaded across 8 sections.
+      - generic [ref=e23]:
+        - strong [ref=e24]: "Source:"
+        - text: Canva Help Center keyboard shortcuts page
+    - generic [ref=e26]:
+      - strong [ref=e27]: Ad Slot
+      - generic [ref=e28]: 728 × 90 top banner
+    - generic [ref=e29]:
+      - complementary "Shortcut sections" [ref=e30]:
+        - navigation [ref=e31]:
+          - button "General" [ref=e32] [cursor=pointer]:
+            - img [ref=e33]
+            - generic [ref=e35]: General
+          - button "Elements" [ref=e36] [cursor=pointer]:
+            - img [ref=e37]
+            - generic [ref=e39]: Elements
+          - button "Text" [ref=e40] [cursor=pointer]:
+            - img [ref=e41]
+            - generic [ref=e43]: Text
+          - button "Video" [ref=e44] [cursor=pointer]:
+            - img [ref=e45]
+            - generic [ref=e47]: Video
+          - button "Zoom" [ref=e48] [cursor=pointer]:
+            - img [ref=e49]
+            - generic [ref=e51]: Zoom
+          - button "Page view" [ref=e52] [cursor=pointer]:
+            - img [ref=e53]
+            - generic [ref=e55]: Page view
+          - button "Comments" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+            - generic [ref=e59]: Comments
+          - button "Desktop app" [ref=e60] [cursor=pointer]:
+            - img [ref=e61]
+            - generic [ref=e63]: Desktop app
+      - generic [ref=e64]:
+        - generic [ref=e65]:
+          - generic [ref=e66]:
+            - paragraph [ref=e67]: Canva Keyboard Shortcut Reference
+            - heading "Complete Canva shortcut guide for Mac and Windows" [level=1] [ref=e68]
+            - paragraph [ref=e69]: Search every published Canva shortcut, jump by section, copy any action, and print a clean two-column desk reference. Visual direction blends the supplied Figma wireframe with a denser section-based cheatsheet.
+          - generic [ref=e70]:
+            - generic [ref=e71]: Single file
+            - generic [ref=e72]: No framework
+            - generic [ref=e73]: Print-ready
+            - generic [ref=e74]: Strict Canva source
+        - generic [ref=e75]:
+          - generic [ref=e76]:
+            - generic [ref=e78]:
+              - img [ref=e79]
+              - generic [ref=e81]:
+                - heading "General" [level=2] [ref=e82]
+                - text: 16 shortcuts
+            - generic [ref=e83]:
+              - article [ref=e84]:
+                - generic [ref=e85]:
+                  - generic [ref=e86]:
+                    - paragraph [ref=e87]: Undo
+                    - button "Copy Undo shortcut":
+                      - img
+                  - generic [ref=e88]:
+                    - generic [ref=e89]:
+                      - generic [ref=e90]: Mac
+                      - generic [ref=e91]: ⌘
+                      - generic [ref=e92]: Z
+                    - generic [ref=e93]:
+                      - generic [ref=e94]: Windows
+                      - generic [ref=e95]: Ctrl
+                      - generic [ref=e96]: Z
+                - generic [ref=e97]:
+                  - generic [ref=e98]:
+                    - paragraph [ref=e99]: Redo
+                    - button "Copy Redo shortcut":
+                      - img
+                  - generic [ref=e100]:
+                    - generic [ref=e101]:
+                      - generic [ref=e102]: Mac
+                      - generic [ref=e103]: ⌘
+                      - generic [ref=e104]: "Y"
+                    - generic [ref=e105]:
+                      - generic [ref=e106]: Windows
+                      - generic [ref=e107]: Ctrl
+                      - generic [ref=e108]: "Y"
+                - generic [ref=e109]:
+                  - generic [ref=e110]:
+                    - paragraph [ref=e111]: Save
+                    - button "Copy Save shortcut":
+                      - img
+                  - generic [ref=e112]:
+                    - generic [ref=e113]:
+                      - generic [ref=e114]: Mac
+                      - generic [ref=e115]: ⌘
+                      - generic [ref=e116]: S
+                    - generic [ref=e117]:
+                      - generic [ref=e118]: Windows
+                      - generic [ref=e119]: Ctrl
+                      - generic [ref=e120]: S
+                - generic [ref=e121]:
+                  - generic [ref=e122]:
+                    - paragraph [ref=e123]: Select all
+                    - button "Copy Select all shortcut":
+                      - img
+                  - generic [ref=e124]:
+                    - generic [ref=e125]:
+                      - generic [ref=e126]: Mac
+                      - generic [ref=e127]: ⌘
+                      - generic [ref=e128]: A
+                    - generic [ref=e129]:
+                      - generic [ref=e130]: Windows
+                      - generic [ref=e131]: Ctrl
+                      - generic [ref=e132]: A
+                - generic [ref=e133]:
+                  - generic [ref=e134]:
+                    - paragraph [ref=e135]: Show or hide sidebar
+                    - button "Copy Show or hide sidebar shortcut":
+                      - img
+                  - generic [ref=e136]:
+                    - generic [ref=e137]:
+                      - generic [ref=e138]: Mac
+                      - generic [ref=e139]: ⌘
+                      - generic [ref=e140]: /
+                    - generic [ref=e141]:
+                      - generic [ref=e142]: Windows
+                      - generic [ref=e143]: Ctrl
+                      - generic [ref=e144]: /
+                - generic [ref=e145]:
+                  - generic [ref=e146]:
+                    - paragraph [ref=e147]: Add text
+                    - button "Copy Add text shortcut":
+                      - img
+                  - generic [ref=e148]:
+                    - generic [ref=e149]:
+                      - generic [ref=e150]: Mac
+                      - generic [ref=e151]: T
+                    - generic [ref=e152]:
+                      - generic [ref=e153]: Windows
+                      - generic [ref=e154]: T
+                - generic [ref=e155]:
+                  - generic [ref=e156]:
+                    - paragraph [ref=e157]: Add rectangle
+                    - button "Copy Add rectangle shortcut":
+                      - img
+                  - generic [ref=e158]:
+                    - generic [ref=e159]:
+                      - generic [ref=e160]: Mac
+                      - generic [ref=e161]: R
+                    - generic [ref=e162]:
+                      - generic [ref=e163]: Windows
+                      - generic [ref=e164]: R
+                - generic [ref=e165]:
+                  - generic [ref=e166]:
+                    - paragraph [ref=e167]: Add line
+                    - button "Copy Add line shortcut":
+                      - img
+                  - generic [ref=e168]:
+                    - generic [ref=e169]:
+                      - generic [ref=e170]: Mac
+                      - generic [ref=e171]: L
+                    - generic [ref=e172]:
+                      - generic [ref=e173]: Windows
+                      - generic [ref=e174]: L
+              - article [ref=e175]:
+                - generic [ref=e176]:
+                  - generic [ref=e177]:
+                    - paragraph [ref=e178]: Add circle
+                    - button "Copy Add circle shortcut":
+                      - img
+                  - generic [ref=e179]:
+                    - generic [ref=e180]:
+                      - generic [ref=e181]: Mac
+                      - generic [ref=e182]: C
+                    - generic [ref=e183]:
+                      - generic [ref=e184]: Windows
+                      - generic [ref=e185]: C
+                - generic [ref=e186]:
+                  - generic [ref=e187]:
+                    - paragraph [ref=e188]: Add link
+                    - button "Copy Add link shortcut":
+                      - img
+                  - generic [ref=e189]:
+                    - generic [ref=e190]:
+                      - generic [ref=e191]: Mac
+                      - generic [ref=e192]: ⌘
+                      - generic [ref=e193]: K
+                    - generic [ref=e194]:
+                      - generic [ref=e195]: Windows
+                      - generic [ref=e196]: Ctrl
+                      - generic [ref=e197]: K
+                - generic [ref=e198]:
+                  - generic [ref=e199]:
+                    - paragraph [ref=e200]: Add emoji (Canva Docs and comments only)
+                    - button "Copy Add emoji (Canva Docs and comments only) shortcut":
+                      - img
+                  - generic [ref=e201]:
+                    - generic [ref=e202]:
+                      - generic [ref=e203]: Mac
+                      - generic [ref=e204]: Shift
+                      - generic [ref=e205]: ;
+                    - generic [ref=e206]:
+                      - generic [ref=e207]: Windows
+                      - generic [ref=e208]: Win
+                      - generic [ref=e209]: ;
+                - generic [ref=e210]:
+                  - generic [ref=e211]:
+                    - paragraph [ref=e212]: Add empty page
+                    - button "Copy Add empty page shortcut":
+                      - img
+                  - generic [ref=e213]:
+                    - generic [ref=e214]:
+                      - generic [ref=e215]: Mac
+                      - generic [ref=e216]: ⌘
+                      - generic [ref=e217]: Return
+                    - generic [ref=e218]:
+                      - generic [ref=e219]: Windows
+                      - generic [ref=e220]: Ctrl
+                      - generic [ref=e221]: Enter
+                - generic [ref=e222]:
+                  - generic [ref=e223]:
+                    - paragraph [ref=e224]: Delete empty page
+                    - button "Copy Delete empty page shortcut":
+                      - img
+                  - generic [ref=e225]:
+                    - generic [ref=e226]:
+                      - generic [ref=e227]: Mac
+                      - generic [ref=e228]: ⌘
+                      - generic [ref=e229]: Delete
+                    - generic [ref=e230]:
+                      - generic [ref=e231]: Windows
+                      - generic [ref=e232]: Ctrl
+                      - generic [ref=e233]: Backspace
+                - generic [ref=e234]:
+                  - generic [ref=e235]:
+                    - paragraph [ref=e236]: Navigate to toolbar
+                    - button "Copy Navigate to toolbar shortcut":
+                      - img
+                  - generic [ref=e237]:
+                    - generic [ref=e238]:
+                      - generic [ref=e239]: Mac
+                      - generic [ref=e240]: ⌘
+                      - generic [ref=e241]: F1
+                    - generic [ref=e242]:
+                      - generic [ref=e243]: Windows
+                      - generic [ref=e244]: Ctrl
+                      - generic [ref=e245]: F1
+                - generic [ref=e246]:
+                  - generic [ref=e247]:
+                    - paragraph [ref=e248]: Skip to canvas
+                    - button "Copy Skip to canvas shortcut":
+                      - img
+                  - generic [ref=e249]:
+                    - generic [ref=e250]:
+                      - generic [ref=e251]: Mac
+                      - generic [ref=e252]: ⌘
+                      - generic [ref=e253]: F2
+                    - generic [ref=e254]:
+                      - generic [ref=e255]: Windows
+                      - generic [ref=e256]: Ctrl
+                      - generic [ref=e257]: F2
+                - generic [ref=e258]:
+                  - generic [ref=e259]:
+                    - paragraph [ref=e260]: Quick actions shortcut
+                    - button "Copy Quick actions shortcut shortcut":
+                      - img
+                  - generic [ref=e261]:
+                    - generic [ref=e262]:
+                      - generic [ref=e263]: Mac
+                      - generic [ref=e264]: /
+                      - generic [ref=e265]: or
+                      - generic [ref=e266]: ⌘
+                      - generic [ref=e267]: E
+                    - generic [ref=e268]:
+                      - generic [ref=e269]: Windows
+                      - generic [ref=e270]: /
+                      - generic [ref=e271]: or
+                      - generic [ref=e272]: Ctrl
+                      - generic [ref=e273]: E
+          - generic [ref=e274]:
+            - generic [ref=e276]:
+              - img [ref=e277]
+              - generic [ref=e279]:
+                - heading "Elements" [level=2] [ref=e280]
+                - text: 31 shortcuts
+            - generic [ref=e281]:
+              - article [ref=e282]:
+                - generic [ref=e283]:
+                  - generic [ref=e284]:
+                    - paragraph [ref=e285]: Delete selected elements
+                    - button "Copy Delete selected elements shortcut":
+                      - img
+                  - generic [ref=e286]:
+                    - generic [ref=e287]:
+                      - generic [ref=e288]: Mac
+                      - generic [ref=e289]: Delete
+                    - generic [ref=e290]:
+                      - generic [ref=e291]: Windows
+                      - generic [ref=e292]: Backspace
+                      - generic [ref=e293]: or
+                      - generic [ref=e294]: Delete
+                - generic [ref=e295]:
+                  - generic [ref=e296]:
+                    - paragraph [ref=e297]: Group elements
+                    - button "Copy Group elements shortcut":
+                      - img
+                  - generic [ref=e298]:
+                    - generic [ref=e299]:
+                      - generic [ref=e300]: Mac
+                      - generic [ref=e301]: ⌘
+                      - generic [ref=e302]: G
+                    - generic [ref=e303]:
+                      - generic [ref=e304]: Windows
+                      - generic [ref=e305]: Ctrl
+                      - generic [ref=e306]: G
+                - generic [ref=e307]:
+                  - generic [ref=e308]:
+                    - paragraph [ref=e309]: Ungroup elements
+                    - button "Copy Ungroup elements shortcut":
+                      - img
+                  - generic [ref=e310]:
+                    - generic [ref=e311]:
+                      - generic [ref=e312]: Mac
+                      - generic [ref=e313]: ⌘
+                      - generic [ref=e314]: Shift
+                      - generic [ref=e315]: G
+                    - generic [ref=e316]:
+                      - generic [ref=e317]: Windows
+                      - generic [ref=e318]: Ctrl
+                      - generic [ref=e319]: Shift
+                      - generic [ref=e320]: G
+                - generic [ref=e321]:
+                  - generic [ref=e322]:
+                    - paragraph [ref=e323]: Lock element
+                    - button "Copy Lock element shortcut":
+                      - img
+                  - generic [ref=e324]:
+                    - generic [ref=e325]:
+                      - generic [ref=e326]: Mac
+                      - generic [ref=e327]: ⌥
+                      - generic [ref=e328]: Shift
+                      - generic [ref=e329]: L
+                    - generic [ref=e330]:
+                      - generic [ref=e331]: Windows
+                      - generic [ref=e332]: Alt
+                      - generic [ref=e333]: Shift
+                      - generic [ref=e334]: L
+                - generic [ref=e335]:
+                  - generic [ref=e336]:
+                    - paragraph [ref=e337]: Justify elements-level
+                    - button "Copy Justify elements-level shortcut":
+                      - img
+                  - generic [ref=e338]:
+                    - generic [ref=e339]:
+                      - generic [ref=e340]: Mac
+                      - generic [ref=e341]: ⌘
+                      - generic [ref=e342]: Shift
+                      - generic [ref=e343]: J
+                    - generic [ref=e344]:
+                      - generic [ref=e345]: Windows
+                      - generic [ref=e346]: Ctrl
+                      - generic [ref=e347]: Shift
+                      - generic [ref=e348]: J
+                - generic [ref=e349]:
+                  - generic [ref=e350]:
+                    - paragraph [ref=e351]: Arrange elements forward
+                    - button "Copy Arrange elements forward shortcut":
+                      - img
+                  - generic [ref=e352]:
+                    - generic [ref=e353]:
+                      - generic [ref=e354]: Mac
+                      - generic [ref=e355]: ⌘
+                      - generic [ref=e356]: "]"
+                    - generic [ref=e357]:
+                      - generic [ref=e358]: Windows
+                      - generic [ref=e359]: Ctrl
+                      - generic [ref=e360]: "]"
+                - generic [ref=e361]:
+                  - generic [ref=e362]:
+                    - paragraph [ref=e363]: Arrange elements backward
+                    - button "Copy Arrange elements backward shortcut":
+                      - img
+                  - generic [ref=e364]:
+                    - generic [ref=e365]:
+                      - generic [ref=e366]: Mac
+                      - generic [ref=e367]: ⌘
+                      - generic [ref=e368]: "["
+                    - generic [ref=e369]:
+                      - generic [ref=e370]: Windows
+                      - generic [ref=e371]: Ctrl
+                      - generic [ref=e372]: "["
+                - generic [ref=e373]:
+                  - generic [ref=e374]:
+                    - paragraph [ref=e375]: Arrange elements to front
+                    - button "Copy Arrange elements to front shortcut":
+                      - img
+                  - generic [ref=e376]:
+                    - generic [ref=e377]:
+                      - generic [ref=e378]: Mac
+                      - generic [ref=e379]: ⌥
+                      - generic [ref=e380]: ⌘
+                      - generic [ref=e381]: "]"
+                    - generic [ref=e382]:
+                      - generic [ref=e383]: Windows
+                      - generic [ref=e384]: Alt
+                      - generic [ref=e385]: Ctrl
+                      - generic [ref=e386]: "]"
+                - generic [ref=e387]:
+                  - generic [ref=e388]:
+                    - paragraph [ref=e389]: Arrange elements to back
+                    - button "Copy Arrange elements to back shortcut":
+                      - img
+                  - generic [ref=e390]:
+                    - generic [ref=e391]:
+                      - generic [ref=e392]: Mac
+                      - generic [ref=e393]: ⌥
+                      - generic [ref=e394]: ⌘
+                      - generic [ref=e395]: "["
+                    - generic [ref=e396]:
+                      - generic [ref=e397]: Windows
+                      - generic [ref=e398]: Alt
+                      - generic [ref=e399]: Ctrl
+                      - generic [ref=e400]: "["
+                - generic [ref=e401]:
+                  - generic [ref=e402]:
+                    - paragraph [ref=e403]: Tidy up elements
+                    - button "Copy Tidy up elements shortcut":
+                      - img
+                  - generic [ref=e404]:
+                    - generic [ref=e405]:
+                      - generic [ref=e406]: Mac
+                      - generic [ref=e407]: Shift
+                      - generic [ref=e408]: ⌘
+                      - generic [ref=e409]: T
+                    - generic [ref=e410]:
+                      - generic [ref=e411]: Windows
+                      - generic [ref=e412]: Alt
+                      - generic [ref=e413]: Shift
+                      - generic [ref=e414]: T
+                - generic [ref=e415]:
+                  - generic [ref=e416]:
+                    - paragraph [ref=e417]: Select next/previous elements
+                    - button "Copy Select next/previous elements shortcut":
+                      - img
+                  - generic [ref=e418]:
+                    - generic [ref=e419]:
+                      - generic [ref=e420]: Mac
+                      - generic [ref=e421]: Tab
+                      - generic [ref=e422]: or
+                      - generic [ref=e423]: Shift
+                      - generic [ref=e424]: Tab
+                    - generic [ref=e425]:
+                      - generic [ref=e426]: Windows
+                      - generic [ref=e427]: Tab
+                      - generic [ref=e428]: or
+                      - generic [ref=e429]: Shift
+                      - generic [ref=e430]: Tab
+                - generic [ref=e431]:
+                  - generic [ref=e432]:
+                    - paragraph [ref=e433]: Move left (small)
+                    - button "Copy Move left (small) shortcut":
+                      - img
+                  - generic [ref=e434]:
+                    - generic [ref=e435]:
+                      - generic [ref=e436]: Mac
+                      - generic [ref=e437]: Arrow Left
+                    - generic [ref=e438]:
+                      - generic [ref=e439]: Windows
+                      - generic [ref=e440]: Not listed
+                - generic [ref=e441]:
+                  - generic [ref=e442]:
+                    - paragraph [ref=e443]: Move right (small)
+                    - button "Copy Move right (small) shortcut":
+                      - img
+                  - generic [ref=e444]:
+                    - generic [ref=e445]:
+                      - generic [ref=e446]: Mac
+                      - generic [ref=e447]: Arrow Right
+                    - generic [ref=e448]:
+                      - generic [ref=e449]: Windows
+                      - generic [ref=e450]: Not listed
+                - generic [ref=e451]:
+                  - generic [ref=e452]:
+                    - paragraph [ref=e453]: Move up (small)
+                    - button "Copy Move up (small) shortcut":
+                      - img
+                  - generic [ref=e454]:
+                    - generic [ref=e455]:
+                      - generic [ref=e456]: Mac
+                      - generic [ref=e457]: Arrow Up
+                    - generic [ref=e458]:
+                      - generic [ref=e459]: Windows
+                      - generic [ref=e460]: Not listed
+                - generic [ref=e461]:
+                  - generic [ref=e462]:
+                    - paragraph [ref=e463]: Move down (small)
+                    - button "Copy Move down (small) shortcut":
+                      - img
+                  - generic [ref=e464]:
+                    - generic [ref=e465]:
+                      - generic [ref=e466]: Mac
+                      - generic [ref=e467]: Arrow Down
+                    - generic [ref=e468]:
+                      - generic [ref=e469]: Windows
+                      - generic [ref=e470]: Not listed
+                - generic [ref=e471]:
+                  - generic [ref=e472]:
+                    - paragraph [ref=e473]: Move left (large)
+                    - button "Copy Move left (large) shortcut":
+                      - img
+                  - generic [ref=e474]:
+                    - generic [ref=e475]:
+                      - generic [ref=e476]: Mac
+                      - generic [ref=e477]: Shift
+                      - generic [ref=e478]: Arrow Left
+                    - generic [ref=e479]:
+                      - generic [ref=e480]: Windows
+                      - generic [ref=e481]: Not listed
+              - article [ref=e482]:
+                - generic [ref=e483]:
+                  - generic [ref=e484]:
+                    - paragraph [ref=e485]: Move right (large)
+                    - button "Copy Move right (large) shortcut":
+                      - img
+                  - generic [ref=e486]:
+                    - generic [ref=e487]:
+                      - generic [ref=e488]: Mac
+                      - generic [ref=e489]: Shift
+                      - generic [ref=e490]: Arrow Right
+                    - generic [ref=e491]:
+                      - generic [ref=e492]: Windows
+                      - generic [ref=e493]: Not listed
+                - generic [ref=e494]:
+                  - generic [ref=e495]:
+                    - paragraph [ref=e496]: Move up (large)
+                    - button "Copy Move up (large) shortcut":
+                      - img
+                  - generic [ref=e497]:
+                    - generic [ref=e498]:
+                      - generic [ref=e499]: Mac
+                      - generic [ref=e500]: Shift
+                      - generic [ref=e501]: Arrow Up
+                    - generic [ref=e502]:
+                      - generic [ref=e503]: Windows
+                      - generic [ref=e504]: Not listed
+                - generic [ref=e505]:
+                  - generic [ref=e506]:
+                    - paragraph [ref=e507]: Move down (large)
+                    - button "Copy Move down (large) shortcut":
+                      - img
+                  - generic [ref=e508]:
+                    - generic [ref=e509]:
+                      - generic [ref=e510]: Mac
+                      - generic [ref=e511]: Shift
+                      - generic [ref=e512]: Arrow Down
+                    - generic [ref=e513]:
+                      - generic [ref=e514]: Windows
+                      - generic [ref=e515]: Not listed
+                - generic [ref=e516]:
+                  - generic [ref=e517]:
+                    - paragraph [ref=e518]: Rotate left (small)
+                    - button "Copy Rotate left (small) shortcut":
+                      - img
+                  - generic [ref=e519]:
+                    - generic [ref=e520]:
+                      - generic [ref=e521]: Mac
+                      - generic [ref=e522]: ","
+                    - generic [ref=e523]:
+                      - generic [ref=e524]: Windows
+                      - generic [ref=e525]: Not listed
+                - generic [ref=e526]:
+                  - generic [ref=e527]:
+                    - paragraph [ref=e528]: Rotate right (small)
+                    - button "Copy Rotate right (small) shortcut":
+                      - img
+                  - generic [ref=e529]:
+                    - generic [ref=e530]:
+                      - generic [ref=e531]: Mac
+                      - generic [ref=e532]: .
+                    - generic [ref=e533]:
+                      - generic [ref=e534]: Windows
+                      - generic [ref=e535]: Not listed
+                - generic [ref=e536]:
+                  - generic [ref=e537]:
+                    - paragraph [ref=e538]: Rotate left (large)
+                    - button "Copy Rotate left (large) shortcut":
+                      - img
+                  - generic [ref=e539]:
+                    - generic [ref=e540]:
+                      - generic [ref=e541]: Mac
+                      - generic [ref=e542]: Shift
+                      - generic [ref=e543]: ","
+                    - generic [ref=e544]:
+                      - generic [ref=e545]: Windows
+                      - generic [ref=e546]: Not listed
+                - generic [ref=e547]:
+                  - generic [ref=e548]:
+                    - paragraph [ref=e549]: Rotate right (large)
+                    - button "Copy Rotate right (large) shortcut":
+                      - img
+                  - generic [ref=e550]:
+                    - generic [ref=e551]:
+                      - generic [ref=e552]: Mac
+                      - generic [ref=e553]: Shift
+                      - generic [ref=e554]: .
+                    - generic [ref=e555]:
+                      - generic [ref=e556]: Windows
+                      - generic [ref=e557]: Not listed
+                - generic [ref=e558]:
+                  - generic [ref=e559]:
+                    - paragraph [ref=e560]: Resize left (small)
+                    - button "Copy Resize left (small) shortcut":
+                      - img
+                  - generic [ref=e561]:
+                    - generic [ref=e562]:
+                      - generic [ref=e563]: Mac
+                      - generic [ref=e564]: ⌘
+                      - generic [ref=e565]: Arrow Left
+                    - generic [ref=e566]:
+                      - generic [ref=e567]: Windows
+                      - generic [ref=e568]: Not listed
+                - generic [ref=e569]:
+                  - generic [ref=e570]:
+                    - paragraph [ref=e571]: Resize right (small)
+                    - button "Copy Resize right (small) shortcut":
+                      - img
+                  - generic [ref=e572]:
+                    - generic [ref=e573]:
+                      - generic [ref=e574]: Mac
+                      - generic [ref=e575]: ⌘
+                      - generic [ref=e576]: Arrow Right
+                    - generic [ref=e577]:
+                      - generic [ref=e578]: Windows
+                      - generic [ref=e579]: Not listed
+                - generic [ref=e580]:
+                  - generic [ref=e581]:
+                    - paragraph [ref=e582]: Resize up (small)
+                    - button "Copy Resize up (small) shortcut":
+                      - img
+                  - generic [ref=e583]:
+                    - generic [ref=e584]:
+                      - generic [ref=e585]: Mac
+                      - generic [ref=e586]: ⌘
+                      - generic [ref=e587]: Arrow Up
+                    - generic [ref=e588]:
+                      - generic [ref=e589]: Windows
+                      - generic [ref=e590]: Not listed
+                - generic [ref=e591]:
+                  - generic [ref=e592]:
+                    - paragraph [ref=e593]: Resize down (small)
+                    - button "Copy Resize down (small) shortcut":
+                      - img
+                  - generic [ref=e594]:
+                    - generic [ref=e595]:
+                      - generic [ref=e596]: Mac
+                      - generic [ref=e597]: ⌘
+                      - generic [ref=e598]: Arrow Down
+                    - generic [ref=e599]:
+                      - generic [ref=e600]: Windows
+                      - generic [ref=e601]: Not listed
+                - generic [ref=e602]:
+                  - generic [ref=e603]:
+                    - paragraph [ref=e604]: Resize left (large)
+                    - button "Copy Resize left (large) shortcut":
+                      - img
+                  - generic [ref=e605]:
+                    - generic [ref=e606]:
+                      - generic [ref=e607]: Mac
+                      - generic [ref=e608]: Shift
+                      - generic [ref=e609]: ⌘
+                      - generic [ref=e610]: Arrow Left
+                    - generic [ref=e611]:
+                      - generic [ref=e612]: Windows
+                      - generic [ref=e613]: Not listed
+                - generic [ref=e614]:
+                  - generic [ref=e615]:
+                    - paragraph [ref=e616]: Resize right (large)
+                    - button "Copy Resize right (large) shortcut":
+                      - img
+                  - generic [ref=e617]:
+                    - generic [ref=e618]:
+                      - generic [ref=e619]: Mac
+                      - generic [ref=e620]: Shift
+                      - generic [ref=e621]: ⌘
+                      - generic [ref=e622]: Arrow Right
+                    - generic [ref=e623]:
+                      - generic [ref=e624]: Windows
+                      - generic [ref=e625]: Not listed
+                - generic [ref=e626]:
+                  - generic [ref=e627]:
+                    - paragraph [ref=e628]: Resize up (large)
+                    - button "Copy Resize up (large) shortcut":
+                      - img
+                  - generic [ref=e629]:
+                    - generic [ref=e630]:
+                      - generic [ref=e631]: Mac
+                      - generic [ref=e632]: Shift
+                      - generic [ref=e633]: ⌘
+                      - generic [ref=e634]: Arrow Up
+                    - generic [ref=e635]:
+                      - generic [ref=e636]: Windows
+                      - generic [ref=e637]: Not listed
+                - generic [ref=e638]:
+                  - generic [ref=e639]:
+                    - paragraph [ref=e640]: Resize down (large)
+                    - button "Copy Resize down (large) shortcut":
+                      - img
+                  - generic [ref=e641]:
+                    - generic [ref=e642]:
+                      - generic [ref=e643]: Mac
+                      - generic [ref=e644]: Shift
+                      - generic [ref=e645]: ⌘
+                      - generic [ref=e646]: Arrow Down
+                    - generic [ref=e647]:
+                      - generic [ref=e648]: Windows
+                      - generic [ref=e649]: Not listed
+          - generic [ref=e650]:
+            - generic [ref=e652]:
+              - img [ref=e653]
+              - generic [ref=e655]:
+                - heading "Text" [level=2] [ref=e656]
+                - text: 22 shortcuts
+            - generic [ref=e657]:
+              - article [ref=e658]:
+                - generic [ref=e659]:
+                  - generic [ref=e660]:
+                    - paragraph [ref=e661]: Open font menu
+                    - button "Copy Open font menu shortcut":
+                      - img
+                  - generic [ref=e662]:
+                    - generic [ref=e663]:
+                      - generic [ref=e664]: Mac
+                      - generic [ref=e665]: Shift
+                      - generic [ref=e666]: ⌘
+                      - generic [ref=e667]: F
+                    - generic [ref=e668]:
+                      - generic [ref=e669]: Windows
+                      - generic [ref=e670]: Shift
+                      - generic [ref=e671]: Ctrl
+                      - generic [ref=e672]: F
+                - generic [ref=e673]:
+                  - generic [ref=e674]:
+                    - paragraph [ref=e675]: Find and replace
+                    - button "Copy Find and replace shortcut":
+                      - img
+                  - generic [ref=e676]:
+                    - generic [ref=e677]:
+                      - generic [ref=e678]: Mac
+                      - generic [ref=e679]: ⌘
+                      - generic [ref=e680]: F
+                    - generic [ref=e681]:
+                      - generic [ref=e682]: Windows
+                      - generic [ref=e683]: Ctrl
+                      - generic [ref=e684]: F
+                - generic [ref=e685]:
+                  - generic [ref=e686]:
+                    - paragraph [ref=e687]: Bold text
+                    - button "Copy Bold text shortcut":
+                      - img
+                  - generic [ref=e688]:
+                    - generic [ref=e689]:
+                      - generic [ref=e690]: Mac
+                      - generic [ref=e691]: ⌘
+                      - generic [ref=e692]: B
+                    - generic [ref=e693]:
+                      - generic [ref=e694]: Windows
+                      - generic [ref=e695]: Ctrl
+                      - generic [ref=e696]: B
+                - generic [ref=e697]:
+                  - generic [ref=e698]:
+                    - paragraph [ref=e699]: Italicize text
+                    - button "Copy Italicize text shortcut":
+                      - img
+                  - generic [ref=e700]:
+                    - generic [ref=e701]:
+                      - generic [ref=e702]: Mac
+                      - generic [ref=e703]: ⌘
+                      - generic [ref=e704]: I
+                    - generic [ref=e705]:
+                      - generic [ref=e706]: Windows
+                      - generic [ref=e707]: Ctrl
+                      - generic [ref=e708]: I
+                - generic [ref=e709]:
+                  - generic [ref=e710]:
+                    - paragraph [ref=e711]: Underline
+                    - button "Copy Underline shortcut":
+                      - img
+                  - generic [ref=e712]:
+                    - generic [ref=e713]:
+                      - generic [ref=e714]: Mac
+                      - generic [ref=e715]: ⌘
+                      - generic [ref=e716]: U
+                    - generic [ref=e717]:
+                      - generic [ref=e718]: Windows
+                      - generic [ref=e719]: Ctrl
+                      - generic [ref=e720]: U
+                - generic [ref=e721]:
+                  - generic [ref=e722]:
+                    - paragraph [ref=e723]: Uppercase
+                    - button "Copy Uppercase shortcut":
+                      - img
+                  - generic [ref=e724]:
+                    - generic [ref=e725]:
+                      - generic [ref=e726]: Mac
+                      - generic [ref=e727]: Shift
+                      - generic [ref=e728]: ⌘
+                      - generic [ref=e729]: K
+                    - generic [ref=e730]:
+                      - generic [ref=e731]: Windows
+                      - generic [ref=e732]: Shift
+                      - generic [ref=e733]: Ctrl
+                      - generic [ref=e734]: K
+                - generic [ref=e735]:
+                  - generic [ref=e736]:
+                    - paragraph [ref=e737]: Left align
+                    - button "Copy Left align shortcut":
+                      - img
+                  - generic [ref=e738]:
+                    - generic [ref=e739]:
+                      - generic [ref=e740]: Mac
+                      - generic [ref=e741]: Shift
+                      - generic [ref=e742]: ⌘
+                      - generic [ref=e743]: L
+                    - generic [ref=e744]:
+                      - generic [ref=e745]: Windows
+                      - generic [ref=e746]: Shift
+                      - generic [ref=e747]: Ctrl
+                      - generic [ref=e748]: L
+                - generic [ref=e749]:
+                  - generic [ref=e750]:
+                    - paragraph [ref=e751]: Center align
+                    - button "Copy Center align shortcut":
+                      - img
+                  - generic [ref=e752]:
+                    - generic [ref=e753]:
+                      - generic [ref=e754]: Mac
+                      - generic [ref=e755]: Shift
+                      - generic [ref=e756]: ⌘
+                      - generic [ref=e757]: C
+                    - generic [ref=e758]:
+                      - generic [ref=e759]: Windows
+                      - generic [ref=e760]: Shift
+                      - generic [ref=e761]: Ctrl
+                      - generic [ref=e762]: C
+                - generic [ref=e763]:
+                  - generic [ref=e764]:
+                    - paragraph [ref=e765]: Right align
+                    - button "Copy Right align shortcut":
+                      - img
+                  - generic [ref=e766]:
+                    - generic [ref=e767]:
+                      - generic [ref=e768]: Mac
+                      - generic [ref=e769]: Shift
+                      - generic [ref=e770]: ⌘
+                      - generic [ref=e771]: R
+                    - generic [ref=e772]:
+                      - generic [ref=e773]: Windows
+                      - generic [ref=e774]: Shift
+                      - generic [ref=e775]: Ctrl
+                      - generic [ref=e776]: R
+                - generic [ref=e777]:
+                  - generic [ref=e778]:
+                    - paragraph [ref=e779]: Decrease font size by one
+                    - button "Copy Decrease font size by one shortcut":
+                      - img
+                  - generic [ref=e780]:
+                    - generic [ref=e781]:
+                      - generic [ref=e782]: Mac
+                      - generic [ref=e783]: Shift
+                      - generic [ref=e784]: ⌘
+                      - generic [ref=e785]: ","
+                    - generic [ref=e786]:
+                      - generic [ref=e787]: Windows
+                      - generic [ref=e788]: Shift
+                      - generic [ref=e789]: Ctrl
+                      - generic [ref=e790]: ","
+                - generic [ref=e791]:
+                  - generic [ref=e792]:
+                    - paragraph [ref=e793]: Increase font size by one
+                    - button "Copy Increase font size by one shortcut":
+                      - img
+                  - generic [ref=e794]:
+                    - generic [ref=e795]:
+                      - generic [ref=e796]: Mac
+                      - generic [ref=e797]: Shift
+                      - generic [ref=e798]: ⌘
+                      - generic [ref=e799]: .
+                    - generic [ref=e800]:
+                      - generic [ref=e801]: Windows
+                      - generic [ref=e802]: Shift
+                      - generic [ref=e803]: Ctrl
+                      - generic [ref=e804]: .
+              - article [ref=e805]:
+                - generic [ref=e806]:
+                  - generic [ref=e807]:
+                    - paragraph [ref=e808]: Decrease line spacing
+                    - button "Copy Decrease line spacing shortcut":
+                      - img
+                  - generic [ref=e809]:
+                    - generic [ref=e810]:
+                      - generic [ref=e811]: Mac
+                      - generic [ref=e812]: ⌥
+                      - generic [ref=e813]: ⌘
+                      - generic [ref=e814]: Down
+                    - generic [ref=e815]:
+                      - generic [ref=e816]: Windows
+                      - generic [ref=e817]: Alt
+                      - generic [ref=e818]: Ctrl
+                      - generic [ref=e819]: Down
+                - generic [ref=e820]:
+                  - generic [ref=e821]:
+                    - paragraph [ref=e822]: Increase line spacing
+                    - button "Copy Increase line spacing shortcut":
+                      - img
+                  - generic [ref=e823]:
+                    - generic [ref=e824]:
+                      - generic [ref=e825]: Mac
+                      - generic [ref=e826]: ⌥
+                      - generic [ref=e827]: ⌘
+                      - generic [ref=e828]: Up
+                    - generic [ref=e829]:
+                      - generic [ref=e830]: Windows
+                      - generic [ref=e831]: Alt
+                      - generic [ref=e832]: Ctrl
+                      - generic [ref=e833]: Up
+                - generic [ref=e834]:
+                  - generic [ref=e835]:
+                    - paragraph [ref=e836]: Decrease letter spacing
+                    - button "Copy Decrease letter spacing shortcut":
+                      - img
+                  - generic [ref=e837]:
+                    - generic [ref=e838]:
+                      - generic [ref=e839]: Mac
+                      - generic [ref=e840]: ⌥
+                      - generic [ref=e841]: ⌘
+                      - generic [ref=e842]: ","
+                    - generic [ref=e843]:
+                      - generic [ref=e844]: Windows
+                      - generic [ref=e845]: Alt
+                      - generic [ref=e846]: Ctrl
+                      - generic [ref=e847]: ","
+                - generic [ref=e848]:
+                  - generic [ref=e849]:
+                    - paragraph [ref=e850]: Increase letter spacing
+                    - button "Copy Increase letter spacing shortcut":
+                      - img
+                  - generic [ref=e851]:
+                    - generic [ref=e852]:
+                      - generic [ref=e853]: Mac
+                      - generic [ref=e854]: ⌥
+                      - generic [ref=e855]: ⌘
+                      - generic [ref=e856]: .
+                    - generic [ref=e857]:
+                      - generic [ref=e858]: Windows
+                      - generic [ref=e859]: Alt
+                      - generic [ref=e860]: Ctrl
+                      - generic [ref=e861]: .
+                - generic [ref=e862]:
+                  - generic [ref=e863]:
+                    - paragraph [ref=e864]: Anchor text to top
+                    - button "Copy Anchor text to top shortcut":
+                      - img
+                  - generic [ref=e865]:
+                    - generic [ref=e866]:
+                      - generic [ref=e867]: Mac
+                      - generic [ref=e868]: ⌘
+                      - generic [ref=e869]: Shift
+                      - generic [ref=e870]: H
+                    - generic [ref=e871]:
+                      - generic [ref=e872]: Windows
+                      - generic [ref=e873]: Ctrl
+                      - generic [ref=e874]: Shift
+                      - generic [ref=e875]: H
+                - generic [ref=e876]:
+                  - generic [ref=e877]:
+                    - paragraph [ref=e878]: Anchor text to middle
+                    - button "Copy Anchor text to middle shortcut":
+                      - img
+                  - generic [ref=e879]:
+                    - generic [ref=e880]:
+                      - generic [ref=e881]: Mac
+                      - generic [ref=e882]: ⌘
+                      - generic [ref=e883]: Shift
+                      - generic [ref=e884]: M
+                    - generic [ref=e885]:
+                      - generic [ref=e886]: Windows
+                      - generic [ref=e887]: Ctrl
+                      - generic [ref=e888]: Shift
+                      - generic [ref=e889]: M
+                - generic [ref=e890]:
+                  - generic [ref=e891]:
+                    - paragraph [ref=e892]: Anchor text to bottom
+                    - button "Copy Anchor text to bottom shortcut":
+                      - img
+                  - generic [ref=e893]:
+                    - generic [ref=e894]:
+                      - generic [ref=e895]: Mac
+                      - generic [ref=e896]: ⌘
+                      - generic [ref=e897]: Shift
+                      - generic [ref=e898]: B
+                    - generic [ref=e899]:
+                      - generic [ref=e900]: Windows
+                      - generic [ref=e901]: Ctrl
+                      - generic [ref=e902]: Shift
+                      - generic [ref=e903]: B
+                - generic [ref=e904]:
+                  - generic [ref=e905]:
+                    - paragraph [ref=e906]: Numbered list
+                    - button "Copy Numbered list shortcut":
+                      - img
+                  - generic [ref=e907]:
+                    - generic [ref=e908]:
+                      - generic [ref=e909]: Mac
+                      - generic [ref=e910]: ⌘
+                      - generic [ref=e911]: Shift
+                      - generic [ref=e912]: "7"
+                    - generic [ref=e913]:
+                      - generic [ref=e914]: Windows
+                      - generic [ref=e915]: Ctrl
+                      - generic [ref=e916]: Shift
+                      - generic [ref=e917]: "7"
+                - generic [ref=e918]:
+                  - generic [ref=e919]:
+                    - paragraph [ref=e920]: Bulleted list
+                    - button "Copy Bulleted list shortcut":
+                      - img
+                  - generic [ref=e921]:
+                    - generic [ref=e922]:
+                      - generic [ref=e923]: Mac
+                      - generic [ref=e924]: ⌘
+                      - generic [ref=e925]: Shift
+                      - generic [ref=e926]: "8"
+                    - generic [ref=e927]:
+                      - generic [ref=e928]: Windows
+                      - generic [ref=e929]: Ctrl
+                      - generic [ref=e930]: Shift
+                      - generic [ref=e931]: "8"
+                - generic [ref=e932]:
+                  - generic [ref=e933]:
+                    - paragraph [ref=e934]: Copy text style
+                    - button "Copy Copy text style shortcut":
+                      - img
+                  - generic [ref=e935]:
+                    - generic [ref=e936]:
+                      - generic [ref=e937]: Mac
+                      - generic [ref=e938]: ⌥
+                      - generic [ref=e939]: ⌘
+                      - generic [ref=e940]: C
+                    - generic [ref=e941]:
+                      - generic [ref=e942]: Windows
+                      - generic [ref=e943]: Alt
+                      - generic [ref=e944]: Ctrl
+                      - generic [ref=e945]: C
+                - generic [ref=e946]:
+                  - generic [ref=e947]:
+                    - paragraph [ref=e948]: Paste text style
+                    - button "Copy Paste text style shortcut":
+                      - img
+                  - generic [ref=e949]:
+                    - generic [ref=e950]:
+                      - generic [ref=e951]: Mac
+                      - generic [ref=e952]: ⌥
+                      - generic [ref=e953]: ⌘
+                      - generic [ref=e954]: V
+                    - generic [ref=e955]:
+                      - generic [ref=e956]: Windows
+                      - generic [ref=e957]: Alt
+                      - generic [ref=e958]: Ctrl
+                      - generic [ref=e959]: V
+          - generic [ref=e960]:
+            - generic [ref=e962]:
+              - img [ref=e963]
+              - generic [ref=e965]:
+                - heading "Video" [level=2] [ref=e966]
+                - text: 3 shortcuts
+            - generic [ref=e967]:
+              - article [ref=e968]:
+                - generic [ref=e969]:
+                  - generic [ref=e970]:
+                    - paragraph [ref=e971]: Play or pause video
+                    - button "Copy Play or pause video shortcut":
+                      - img
+                  - generic [ref=e972]:
+                    - generic [ref=e973]:
+                      - generic [ref=e974]: Mac
+                      - generic [ref=e975]: Space
+                    - generic [ref=e976]:
+                      - generic [ref=e977]: Windows
+                      - generic [ref=e978]: Space
+                - generic [ref=e979]:
+                  - generic [ref=e980]:
+                    - paragraph [ref=e981]: Mute or unmute video
+                    - button "Copy Mute or unmute video shortcut":
+                      - img
+                  - generic [ref=e982]:
+                    - generic [ref=e983]:
+                      - generic [ref=e984]: Mac
+                      - generic [ref=e985]: M
+                    - generic [ref=e986]:
+                      - generic [ref=e987]: Windows
+                      - generic [ref=e988]: M
+              - article [ref=e989]:
+                - generic [ref=e990]:
+                  - generic [ref=e991]:
+                    - paragraph [ref=e992]: Loop video
+                    - button "Copy Loop video shortcut":
+                      - img
+                  - generic [ref=e993]:
+                    - generic [ref=e994]:
+                      - generic [ref=e995]: Mac
+                      - generic [ref=e996]: ⌥
+                      - generic [ref=e997]: ⌘
+                      - generic [ref=e998]: L
+                    - generic [ref=e999]:
+                      - generic [ref=e1000]: Windows
+                      - generic [ref=e1001]: Alt
+                      - generic [ref=e1002]: Ctrl
+                      - generic [ref=e1003]: L
+          - generic [ref=e1004]:
+            - generic [ref=e1006]:
+              - img [ref=e1007]
+              - generic [ref=e1009]:
+                - heading "Zoom" [level=2] [ref=e1010]
+                - text: 5 shortcuts
+            - generic [ref=e1011]:
+              - article [ref=e1012]:
+                - generic [ref=e1013]:
+                  - generic [ref=e1014]:
+                    - paragraph [ref=e1015]: Zoom in
+                    - button "Copy Zoom in shortcut":
+                      - img
+                  - generic [ref=e1016]:
+                    - generic [ref=e1017]:
+                      - generic [ref=e1018]: Mac
+                      - generic [ref=e1019]: ⌘
+                      - generic [ref=e1020]: +
+                    - generic [ref=e1021]:
+                      - generic [ref=e1022]: Windows
+                      - generic [ref=e1023]: Ctrl
+                      - generic [ref=e1024]: +
+                - generic [ref=e1025]:
+                  - generic [ref=e1026]:
+                    - paragraph [ref=e1027]: Zoom out
+                    - button "Copy Zoom out shortcut":
+                      - img
+                  - generic [ref=e1028]:
+                    - generic [ref=e1029]:
+                      - generic [ref=e1030]: Mac
+                      - generic [ref=e1031]: ⌘
+                      - generic [ref=e1032]: "-"
+                    - generic [ref=e1033]:
+                      - generic [ref=e1034]: Windows
+                      - generic [ref=e1035]: Ctrl
+                      - generic [ref=e1036]: "-"
+                - generic [ref=e1037]:
+                  - generic [ref=e1038]:
+                    - paragraph [ref=e1039]: Zoom to actual size
+                    - button "Copy Zoom to actual size shortcut":
+                      - img
+                  - generic [ref=e1040]:
+                    - generic [ref=e1041]:
+                      - generic [ref=e1042]: Mac
+                      - generic [ref=e1043]: ⌘
+                      - generic [ref=e1044]: "0"
+                    - generic [ref=e1045]:
+                      - generic [ref=e1046]: Windows
+                      - generic [ref=e1047]: Ctrl
+                      - generic [ref=e1048]: "0"
+              - article [ref=e1049]:
+                - generic [ref=e1050]:
+                  - generic [ref=e1051]:
+                    - paragraph [ref=e1052]: Zoom to fit
+                    - button "Copy Zoom to fit shortcut":
+                      - img
+                  - generic [ref=e1053]:
+                    - generic [ref=e1054]:
+                      - generic [ref=e1055]: Mac
+                      - generic [ref=e1056]: ⌥
+                      - generic [ref=e1057]: ⌘
+                      - generic [ref=e1058]: "0"
+                    - generic [ref=e1059]:
+                      - generic [ref=e1060]: Windows
+                      - generic [ref=e1061]: Alt
+                      - generic [ref=e1062]: Ctrl
+                      - generic [ref=e1063]: "0"
+                - generic [ref=e1064]:
+                  - generic [ref=e1065]:
+                    - paragraph [ref=e1066]: Zoom to fill
+                    - button "Copy Zoom to fill shortcut":
+                      - img
+                  - generic [ref=e1067]:
+                    - generic [ref=e1068]:
+                      - generic [ref=e1069]: Mac
+                      - generic [ref=e1070]: Shift
+                      - generic [ref=e1071]: ⌘
+                      - generic [ref=e1072]: "0"
+                    - generic [ref=e1073]:
+                      - generic [ref=e1074]: Windows
+                      - generic [ref=e1075]: Shift
+                      - generic [ref=e1076]: Ctrl
+                      - generic [ref=e1077]: "0"
+          - generic [ref=e1078]:
+            - generic [ref=e1080]:
+              - img [ref=e1081]
+              - generic [ref=e1083]:
+                - heading "Page view" [level=2] [ref=e1084]
+                - text: 5 shortcuts
+            - generic [ref=e1085]:
+              - article [ref=e1086]:
+                - generic [ref=e1087]:
+                  - generic [ref=e1088]:
+                    - paragraph [ref=e1089]: Show rulers and guides
+                    - button "Copy Show rulers and guides shortcut":
+                      - img
+                  - generic [ref=e1090]:
+                    - generic [ref=e1091]:
+                      - generic [ref=e1092]: Mac
+                      - generic [ref=e1093]: Shift
+                      - generic [ref=e1094]: R
+                    - generic [ref=e1095]:
+                      - generic [ref=e1096]: Windows
+                      - generic [ref=e1097]: Shift
+                      - generic [ref=e1098]: R
+                - generic [ref=e1099]:
+                  - generic [ref=e1100]:
+                    - paragraph [ref=e1101]: Scrolling view
+                    - button "Copy Scrolling view shortcut":
+                      - img
+                  - generic [ref=e1102]:
+                    - generic [ref=e1103]:
+                      - generic [ref=e1104]: Mac
+                      - generic [ref=e1105]: ⌥
+                      - generic [ref=e1106]: ⌘
+                      - generic [ref=e1107]: "1"
+                    - generic [ref=e1108]:
+                      - generic [ref=e1109]: Windows
+                      - generic [ref=e1110]: Alt
+                      - generic [ref=e1111]: Ctrl
+                      - generic [ref=e1112]: "1"
+                - generic [ref=e1113]:
+                  - generic [ref=e1114]:
+                    - paragraph [ref=e1115]: Thumbnail view
+                    - button "Copy Thumbnail view shortcut":
+                      - img
+                  - generic [ref=e1116]:
+                    - generic [ref=e1117]:
+                      - generic [ref=e1118]: Mac
+                      - generic [ref=e1119]: ⌥
+                      - generic [ref=e1120]: ⌘
+                      - generic [ref=e1121]: "2"
+                    - generic [ref=e1122]:
+                      - generic [ref=e1123]: Windows
+                      - generic [ref=e1124]: Alt
+                      - generic [ref=e1125]: Ctrl
+                      - generic [ref=e1126]: "2"
+              - article [ref=e1127]:
+                - generic [ref=e1128]:
+                  - generic [ref=e1129]:
+                    - paragraph [ref=e1130]: Grid view
+                    - button "Copy Grid view shortcut":
+                      - img
+                  - generic [ref=e1131]:
+                    - generic [ref=e1132]:
+                      - generic [ref=e1133]: Mac
+                      - generic [ref=e1134]: ⌥
+                      - generic [ref=e1135]: ⌘
+                      - generic [ref=e1136]: "3"
+                    - generic [ref=e1137]:
+                      - generic [ref=e1138]: Windows
+                      - generic [ref=e1139]: Alt
+                      - generic [ref=e1140]: Ctrl
+                      - generic [ref=e1141]: "3"
+                - generic [ref=e1142]:
+                  - generic [ref=e1143]:
+                    - paragraph [ref=e1144]: Presentation mode
+                    - button "Copy Presentation mode shortcut":
+                      - img
+                  - generic [ref=e1145]:
+                    - generic [ref=e1146]:
+                      - generic [ref=e1147]: Mac
+                      - generic [ref=e1148]: ⌥
+                      - generic [ref=e1149]: ⌘
+                      - generic [ref=e1150]: P
+                    - generic [ref=e1151]:
+                      - generic [ref=e1152]: Windows
+                      - generic [ref=e1153]: Alt
+                      - generic [ref=e1154]: Ctrl
+                      - generic [ref=e1155]: P
+          - generic [ref=e1156]:
+            - generic [ref=e1158]:
+              - img [ref=e1159]
+              - generic [ref=e1161]:
+                - heading "Comments" [level=2] [ref=e1162]
+                - text: 4 shortcuts
+            - generic [ref=e1163]:
+              - article [ref=e1164]:
+                - generic [ref=e1165]:
+                  - generic [ref=e1166]:
+                    - paragraph [ref=e1167]: Add comment
+                    - button "Copy Add comment shortcut":
+                      - img
+                  - generic [ref=e1168]:
+                    - generic [ref=e1169]:
+                      - generic [ref=e1170]: Mac
+                      - generic [ref=e1171]: ⌥
+                      - generic [ref=e1172]: ⌘
+                      - generic [ref=e1173]: "N"
+                    - generic [ref=e1174]:
+                      - generic [ref=e1175]: Windows
+                      - generic [ref=e1176]: Alt
+                      - generic [ref=e1177]: Ctrl
+                      - generic [ref=e1178]: "N"
+                - generic [ref=e1179]:
+                  - generic [ref=e1180]:
+                    - paragraph [ref=e1181]: Add emoji to a comment
+                    - button "Copy Add emoji to a comment shortcut":
+                      - img
+                  - generic [ref=e1182]:
+                    - generic [ref=e1183]:
+                      - generic [ref=e1184]: Mac
+                      - generic [ref=e1185]: Shift
+                      - generic [ref=e1186]: ;
+                    - generic [ref=e1187]:
+                      - generic [ref=e1188]: Windows
+                      - generic [ref=e1189]: Shift
+                      - generic [ref=e1190]: ;
+              - article [ref=e1191]:
+                - generic [ref=e1192]:
+                  - generic [ref=e1193]:
+                    - paragraph [ref=e1194]: Start new line in your comment
+                    - button "Copy Start new line in your comment shortcut":
+                      - img
+                  - generic [ref=e1195]:
+                    - generic [ref=e1196]:
+                      - generic [ref=e1197]: Mac
+                      - generic [ref=e1198]: Return
+                      - generic [ref=e1199]: or
+                      - generic [ref=e1200]: Shift
+                      - generic [ref=e1201]: Return
+                    - generic [ref=e1202]:
+                      - generic [ref=e1203]: Windows
+                      - generic [ref=e1204]: Enter
+                      - generic [ref=e1205]: or
+                      - generic [ref=e1206]: Shift
+                      - generic [ref=e1207]: Enter
+                - generic [ref=e1208]:
+                  - generic [ref=e1209]:
+                    - paragraph [ref=e1210]: Submit comment
+                    - button "Copy Submit comment shortcut":
+                      - img
+                  - generic [ref=e1211]:
+                    - generic [ref=e1212]:
+                      - generic [ref=e1213]: Mac
+                      - generic [ref=e1214]: ⌘
+                      - generic [ref=e1215]: Return
+                    - generic [ref=e1216]:
+                      - generic [ref=e1217]: Windows
+                      - generic [ref=e1218]: Command
+                      - generic [ref=e1219]: Enter
+          - generic [ref=e1220]:
+            - generic [ref=e1222]:
+              - img [ref=e1223]
+              - generic [ref=e1225]:
+                - heading "Desktop app" [level=2] [ref=e1226]
+                - text: 16 shortcuts
+            - generic [ref=e1227]:
+              - article [ref=e1228]:
+                - generic [ref=e1229]:
+                  - generic [ref=e1230]:
+                    - paragraph [ref=e1231]: Quit the whole Canva app
+                    - button "Copy Quit the whole Canva app shortcut":
+                      - img
+                  - generic [ref=e1232]:
+                    - generic [ref=e1233]:
+                      - generic [ref=e1234]: Mac
+                      - generic [ref=e1235]: ⌘
+                      - generic [ref=e1236]: Q
+                    - generic [ref=e1237]:
+                      - generic [ref=e1238]: Windows
+                      - generic [ref=e1239]: Alt
+                      - generic [ref=e1240]: F4
+                - generic [ref=e1241]:
+                  - generic [ref=e1242]:
+                    - paragraph [ref=e1243]: Reload the whole app
+                    - button "Copy Reload the whole app shortcut":
+                      - img
+                  - generic [ref=e1244]:
+                    - generic [ref=e1245]:
+                      - generic [ref=e1246]: Mac
+                      - generic [ref=e1247]: ⌘
+                      - generic [ref=e1248]: R
+                    - generic [ref=e1249]:
+                      - generic [ref=e1250]: Windows
+                      - generic [ref=e1251]: Ctrl
+                      - generic [ref=e1252]: R
+                - generic [ref=e1253]:
+                  - generic [ref=e1254]:
+                    - paragraph [ref=e1255]: Enter full-screen mode
+                    - button "Copy Enter full-screen mode shortcut":
+                      - img
+                  - generic [ref=e1256]:
+                    - generic [ref=e1257]:
+                      - generic [ref=e1258]: Mac
+                      - generic [ref=e1259]: ⌃
+                      - generic [ref=e1260]: ⌘
+                      - generic [ref=e1261]: F
+                    - generic [ref=e1262]:
+                      - generic [ref=e1263]: Windows
+                      - generic [ref=e1264]: Not listed
+                - generic [ref=e1265]:
+                  - generic [ref=e1266]:
+                    - paragraph [ref=e1267]: Close the current tab
+                    - button "Copy Close the current tab shortcut":
+                      - img
+                  - generic [ref=e1268]:
+                    - generic [ref=e1269]:
+                      - generic [ref=e1270]: Mac
+                      - generic [ref=e1271]: ⌘
+                      - generic [ref=e1272]: W
+                    - generic [ref=e1273]:
+                      - generic [ref=e1274]: Windows
+                      - generic [ref=e1275]: Ctrl
+                      - generic [ref=e1276]: W
+                - generic [ref=e1277]:
+                  - generic [ref=e1278]:
+                    - paragraph: Select next tab
+                    - button "Copy Select next tab shortcut":
+                      - img
+                  - generic [ref=e1279]:
+                    - generic [ref=e1280]:
+                      - generic [ref=e1281]: Mac
+                      - generic [ref=e1282]: ⌥
+                      - generic [ref=e1283]: ⌘
+                      - generic [ref=e1284]: Right
+                    - generic [ref=e1285]:
+                      - generic [ref=e1286]: Windows
+                      - generic [ref=e1287]: Ctrl
+                      - generic [ref=e1288]: PageDown
+                      - generic [ref=e1289]: or
+                      - generic [ref=e1290]: Ctrl
+                      - generic [ref=e1291]: Tab
+                - generic [ref=e1292]:
+                  - generic:
+                    - paragraph: Select previous tab
+                    - button "Copy Select previous tab shortcut":
+                      - img
+                  - generic [ref=e1293]:
+                    - generic [ref=e1294]:
+                      - generic [ref=e1295]: Mac
+                      - generic [ref=e1296]: ⌥
+                      - generic [ref=e1297]: ⌘
+                      - generic [ref=e1298]: Left
+                    - generic [ref=e1299]:
+                      - generic [ref=e1300]: Windows
+                      - generic [ref=e1301]: Ctrl
+                      - generic [ref=e1302]: PageUp
+                      - generic [ref=e1303]: or
+                      - generic [ref=e1304]: Ctrl
+                      - generic [ref=e1305]: Shift
+                      - generic [ref=e1306]: Tab
+                - generic [ref=e1307]:
+                  - generic [ref=e1308]:
+                    - paragraph [ref=e1309]: Re-open last closed tab
+                    - button "Copy Re-open last closed tab shortcut":
+                      - img
+                  - generic [ref=e1310]:
+                    - generic [ref=e1311]:
+                      - generic [ref=e1312]: Mac
+                      - generic [ref=e1313]: ⌘
+                      - generic [ref=e1314]: Shift
+                      - generic [ref=e1315]: T
+                    - generic [ref=e1316]:
+                      - generic [ref=e1317]: Windows
+                      - generic [ref=e1318]: Ctrl
+                      - generic [ref=e1319]: Shift
+                      - generic [ref=e1320]: T
+                - generic [ref=e1321]:
+                  - generic [ref=e1322]:
+                    - paragraph [ref=e1323]: Create new design
+                    - button "Copy Create new design shortcut":
+                      - img
+                  - generic [ref=e1324]:
+                    - generic [ref=e1325]:
+                      - generic [ref=e1326]: Mac
+                      - generic [ref=e1327]: ⌘
+                      - generic [ref=e1328]: T
+                    - generic [ref=e1329]:
+                      - generic [ref=e1330]: Windows
+                      - generic [ref=e1331]: Ctrl
+                      - generic [ref=e1332]: T
+              - article [ref=e1333]:
+                - generic [ref=e1334]:
+                  - generic [ref=e1335]:
+                    - paragraph [ref=e1336]: Switch tabs to focus on a design tab from 1-8
+                    - button "Copy Switch tabs to focus on a design tab from 1-8 shortcut":
+                      - img
+                  - generic [ref=e1337]:
+                    - generic [ref=e1338]:
+                      - generic [ref=e1339]: Mac
+                      - generic [ref=e1340]: ⌘
+                      - generic [ref=e1341]: 1...8
+                    - generic [ref=e1342]:
+                      - generic [ref=e1343]: Windows
+                      - generic [ref=e1344]: Ctrl
+                      - generic [ref=e1345]: 1...8
+                - generic [ref=e1346]:
+                  - generic [ref=e1347]:
+                    - paragraph [ref=e1348]: Switch to the last tab
+                    - button "Copy Switch to the last tab shortcut":
+                      - img
+                  - generic [ref=e1349]:
+                    - generic [ref=e1350]:
+                      - generic [ref=e1351]: Mac
+                      - generic [ref=e1352]: ⌘
+                      - generic [ref=e1353]: "9"
+                    - generic [ref=e1354]:
+                      - generic [ref=e1355]: Windows
+                      - generic [ref=e1356]: Ctrl
+                      - generic [ref=e1357]: "9"
+                - generic [ref=e1358]:
+                  - generic [ref=e1359]:
+                    - paragraph [ref=e1360]: Open the Settings page
+                    - button "Copy Open the Settings page shortcut":
+                      - img
+                  - generic [ref=e1361]:
+                    - generic [ref=e1362]:
+                      - generic [ref=e1363]: Mac
+                      - generic [ref=e1364]: ⌘
+                      - generic [ref=e1365]: ","
+                    - generic [ref=e1366]:
+                      - generic [ref=e1367]: Windows
+                      - generic [ref=e1368]: Not listed
+                - generic [ref=e1369]:
+                  - generic [ref=e1370]:
+                    - paragraph [ref=e1371]: Open the Home page
+                    - button "Copy Open the Home page shortcut":
+                      - img
+                  - generic [ref=e1372]:
+                    - generic [ref=e1373]:
+                      - generic [ref=e1374]: Mac
+                      - generic [ref=e1375]: ⌘
+                      - generic [ref=e1376]: Shift
+                      - generic [ref=e1377]: H
+                    - generic [ref=e1378]:
+                      - generic [ref=e1379]: Windows
+                      - generic [ref=e1380]: Ctrl
+                      - generic [ref=e1381]: Shift
+                      - generic [ref=e1382]: H
+                - generic [ref=e1383]:
+                  - generic [ref=e1384]:
+                    - paragraph [ref=e1385]: Zoom in app interface
+                    - button "Copy Zoom in app interface shortcut":
+                      - img
+                  - generic [ref=e1386]:
+                    - generic [ref=e1387]:
+                      - generic [ref=e1388]: Mac
+                      - generic [ref=e1389]: ⌘
+                      - generic [ref=e1390]: Shift
+                      - generic [ref=e1391]: +
+                    - generic [ref=e1392]:
+                      - generic [ref=e1393]: Windows
+                      - generic [ref=e1394]: Ctrl
+                      - generic [ref=e1395]: Shift
+                      - generic [ref=e1396]: +
+                - generic [ref=e1397]:
+                  - generic [ref=e1398]:
+                    - paragraph [ref=e1399]: Zoom out app interface
+                    - button "Copy Zoom out app interface shortcut":
+                      - img
+                  - generic [ref=e1400]:
+                    - generic [ref=e1401]:
+                      - generic [ref=e1402]: Mac
+                      - generic [ref=e1403]: ⌘
+                      - generic [ref=e1404]: Shift
+                      - generic [ref=e1405]: "-"
+                    - generic [ref=e1406]:
+                      - generic [ref=e1407]: Windows
+                      - generic [ref=e1408]: Ctrl
+                      - generic [ref=e1409]: Shift
+                      - generic [ref=e1410]: "-"
+                - generic [ref=e1411]:
+                  - generic [ref=e1412]:
+                    - paragraph [ref=e1413]: Reset app interface scaling to default
+                    - button "Copy Reset app interface scaling to default shortcut":
+                      - img
+                  - generic [ref=e1414]:
+                    - generic [ref=e1415]:
+                      - generic [ref=e1416]: Mac
+                      - generic [ref=e1417]: Shift
+                      - generic [ref=e1418]: ⌘
+                      - generic [ref=e1419]: "0"
+                    - generic [ref=e1420]:
+                      - generic [ref=e1421]: Windows
+                      - generic [ref=e1422]: Not listed
+                - generic [ref=e1423]:
+                  - generic [ref=e1424]:
+                    - paragraph [ref=e1425]: Close window
+                    - button "Copy Close window shortcut":
+                      - img
+                  - generic [ref=e1426]:
+                    - generic [ref=e1427]:
+                      - generic [ref=e1428]: Mac
+                      - generic [ref=e1429]: Shift
+                      - generic [ref=e1430]: ⌘
+                      - generic [ref=e1431]: W
+                    - generic [ref=e1432]:
+                      - generic [ref=e1433]: Windows
+                      - generic [ref=e1434]: Alt
+                      - generic [ref=e1435]: F4
+    - generic [ref=e1437]:
+      - strong [ref=e1438]: Ad Slot
+      - generic [ref=e1439]: 728 × 90 bottom banner
+    - contentinfo [ref=e1440]:
+      - paragraph [ref=e1441]: Canva Vault uses only shortcut content published on Canva’s Help Center page for keyboard shortcuts. Some Windows values are omitted in Canva’s own table; those rows are shown as “Not listed” rather than guessed.
+      - paragraph [ref=e1442]:
+        - text: Press
+        - strong [ref=e1443]: Esc
+        - text: to clear search. Use the print button for a clean PDF cheat sheet.

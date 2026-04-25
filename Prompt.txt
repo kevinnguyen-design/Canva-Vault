@@ -1,0 +1,70 @@
+Build a static keyboard shortcut reference site for Canva using plain
+HTML, CSS, and vanilla JS — single file (index.html) deployable anywhere.
+No framework, no build step, no node_modules. Open index.html = works.
+
+CONTENT:
+Include all Canva keyboard shortcuts organized into these sections:
+1. Basic
+2. Elements
+3. Text
+4. Video
+5. Zoom
+6. Page view
+7. Comments
+8. Desktop app
+
+Take shortcuts from https://www.canva.com/help/canva-keyboard-shortcuts/
+
+Each shortcut entry: { action, mac, windows, category, tags[] }
+Store all data as a JS const array in a <script> tag. Include 80+ shortcuts
+minimum. Research and include accurate Canva shortcuts.
+
+UI/UX:
+- Two-column card layout per section on desktop, single column on mobile.
+- Each shortcut row: action label on left, Mac key pill + Windows key pill
+  on right. Key pills styled like physical keys (monospace font, border,
+  slight shadow, dark bg).
+- Live search bar at top: filters all shortcuts in real time as user types.
+  Highlights matched text in results. Clears with Escape key.
+- OS toggle (Mac / Windows) at top right. Switches which key notation
+  is visually prominent (other one dims to 40% opacity). Default: detect
+  from navigator.platform, fallback to Mac.
+- Each section has a sticky sub-header so you always know what category
+  you're in while scrolling.
+- "Copy" icon on hover of each shortcut row — copies the action + keys
+  to clipboard as plain text.
+
+DESIGN:
+- Dark theme. Background #111, cards #1c1c1c, key pills #2a2a2a with
+  #fff text, accent #a78bfa (purple-400 — on-brand for Canva-adjacent).
+- Inter font loaded from Google Fonts.
+- CSS custom properties for all colors at :root so it's easy to retheme.
+- Subtle CSS animation on the key pills: slight scale-up on hover.
+- Print stylesheet included: @media print renders a clean 2-column
+  cheat sheet with no search bar, no UI chrome. Black text on white.
+  Make it actually printable as a useful desk reference.
+
+Implement my figma design into code, keep it as close as my design as possible: https://www.figma.com/design/QvC0MuxY0y4HtcdePR9zmz/Untitled?node-id=1-2&t=qfrUCTmID5aVTF0M-4
+
+TRAFFIC / VIRALITY:
+- Page title: "Canva Keyboard Shortcuts — Complete Cheat Sheet (Mac & Windows)"
+- Full OG meta tags for Twitter/LinkedIn sharing.
+- JSON-LD structured data (HowTo schema wrapping the shortcut list)
+  for eventual SEO benefit.
+- "Download as PDF" button that triggers browser print dialog
+  (window.print()) styled with the print stylesheet — zero dependencies.
+- "Share this page" button copies URL to clipboard.
+
+MONETIZATION:
+- div id="ad-top-banner" 728×90 between the search bar and first section.
+- div id="ad-bottom-banner" 728×90 at page bottom above footer.
+- div id="ad-mobile-inline" 300×250 injected between section 3 and 4
+  on mobile only (JS checks window width on load).
+- All ad divs get class="ad-slot" with data-size.
+
+OUTPUT:
+Single index.html file. All CSS in <style>, all JS in <script> at
+bottom of body. No external dependencies except the Google Fonts
+@import in CSS. Must work by opening the file directly in a browser
+with zero setup. Include all 80+ shortcuts in the data array — do not
+truncate or say "add more here". Write the complete file.

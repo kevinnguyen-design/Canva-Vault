@@ -1,0 +1,1523 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Canva Keyboard Shortcuts — Complete Cheat Sheet (Mac &amp; Windows)</title>
+    <meta
+      name="description"
+      content="Canva Vault is a searchable, printable cheat sheet for Canva keyboard shortcuts on Mac and Windows."
+    />
+    <meta property="og:title" content="Canva Keyboard Shortcuts — Complete Cheat Sheet (Mac &amp; Windows)" />
+    <meta
+      property="og:description"
+      content="Browse Canva shortcuts by section, switch between Mac and Windows, search instantly, and print a clean desk reference."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="Canva Vault" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Canva Keyboard Shortcuts — Complete Cheat Sheet (Mac &amp; Windows)" />
+    <meta
+      name="twitter:description"
+      content="Canva Vault is a searchable, printable cheat sheet for Canva keyboard shortcuts on Mac and Windows."
+    />
+    <link rel="canonical" href="" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+      :root {
+        --bg: #111111;
+        --bg-soft: #171717;
+        --panel: #1c1c1c;
+        --panel-strong: #202020;
+        --panel-muted: rgba(28, 28, 28, 0.88);
+        --key-bg: #2a2a2a;
+        --key-border: rgba(255, 255, 255, 0.08);
+        --line: rgba(255, 255, 255, 0.1);
+        --line-strong: rgba(255, 255, 255, 0.16);
+        --text: #ffffff;
+        --muted: #acabaa;
+        --accent: #a78bfa;
+        --accent-soft: rgba(167, 139, 250, 0.14);
+        --shadow: 0 22px 60px rgba(0, 0, 0, 0.35);
+        --radius-xl: 30px;
+        --radius-lg: 22px;
+        --radius-md: 16px;
+        --radius-sm: 10px;
+        --shell: min(1440px, calc(100vw - 28px));
+        --sidebar-width: 280px;
+        --dimmed: 0.4;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        color-scheme: dark;
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        min-width: 320px;
+        font-family: "Inter", sans-serif;
+        background:
+          radial-gradient(circle at top left, rgba(167, 139, 250, 0.16), transparent 30rem),
+          radial-gradient(circle at top right, rgba(167, 139, 250, 0.08), transparent 22rem),
+          linear-gradient(180deg, #151515 0%, #111111 36%, #0f0f0f 100%);
+        color: var(--text);
+      }
+
+      a {
+        color: inherit;
+      }
+
+      button,
+      input {
+        font: inherit;
+      }
+
+      .sr-only,
+      .skip-link:not(:focus) {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+
+      .skip-link {
+        left: 16px;
+        top: 16px;
+        z-index: 100;
+        padding: 10px 14px;
+        border-radius: 999px;
+        background: var(--accent);
+        color: #111111;
+        font-weight: 700;
+      }
+
+      button:focus-visible,
+      input:focus-visible,
+      a:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 2px;
+      }
+
+      .page-shell {
+        width: var(--shell);
+        margin: 0 auto;
+        padding: 16px 0 48px;
+      }
+
+      .topbar {
+        position: sticky;
+        top: 0;
+        z-index: 30;
+        display: grid;
+        grid-template-columns: auto minmax(280px, 1fr) auto auto;
+        gap: 20px;
+        align-items: center;
+        padding: 14px 22px;
+        margin-bottom: 14px;
+        border: 2px solid var(--line);
+        border-radius: var(--radius-xl);
+        background: rgba(17, 17, 17, 0.92);
+        backdrop-filter: blur(18px);
+        box-shadow: var(--shadow);
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        min-width: 0;
+      }
+
+      .brand-mark {
+        font-size: 36px;
+        font-weight: 800;
+        color: var(--accent);
+        line-height: 1;
+        letter-spacing: -0.04em;
+      }
+
+      .search-wrap {
+        position: relative;
+      }
+
+      .search-wrap svg {
+        position: absolute;
+        left: 18px;
+        top: 50%;
+        width: 24px;
+        height: 24px;
+        transform: translateY(-50%);
+        color: var(--muted);
+        pointer-events: none;
+      }
+
+      .search-input {
+        width: 100%;
+        min-height: 50px;
+        padding: 12px 18px 12px 50px;
+        border: 2px solid var(--line);
+        border-radius: 999px;
+        background: var(--panel);
+        color: var(--text);
+        font-size: 1rem;
+      }
+
+      .search-input::placeholder {
+        color: var(--muted);
+      }
+
+      .os-toggle {
+        display: inline-flex;
+        gap: 6px;
+        align-items: center;
+        padding: 6px;
+        border: 2px solid var(--line);
+        border-radius: 999px;
+        background: var(--panel);
+      }
+
+      .os-button,
+      .utility-button {
+        border: 0;
+        border-radius: 999px;
+        background: transparent;
+        color: var(--text);
+        cursor: pointer;
+        transition:
+          transform 160ms ease,
+          background-color 160ms ease,
+          color 160ms ease,
+          opacity 160ms ease;
+      }
+
+      .os-button {
+        padding: 10px 16px;
+        font-weight: 700;
+      }
+
+      .os-button.is-active {
+        background: var(--accent);
+        color: #111111;
+      }
+
+      .utility-button {
+        display: inline-flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        min-height: 48px;
+        padding: 10px 16px;
+        border: 2px solid var(--line);
+        background: var(--panel);
+        color: var(--muted);
+        font-weight: 600;
+      }
+
+      .utility-button:hover,
+      .os-button:hover,
+      .shortcut-copy:hover,
+      .category-link:hover {
+        transform: translateY(-1px);
+      }
+
+      .status-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        padding: 8px 6px 18px;
+        color: var(--muted);
+        font-size: 0.94rem;
+      }
+
+      .status-bar strong {
+        color: var(--text);
+      }
+
+      .layout {
+        display: grid;
+        grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
+        gap: 18px;
+        align-items: start;
+      }
+
+      .sidebar,
+      .content-shell,
+      .ad-slot,
+      .empty-state,
+      .site-footer {
+        border: 2px solid var(--line);
+        background: var(--panel-muted);
+        box-shadow: var(--shadow);
+        backdrop-filter: blur(14px);
+      }
+
+      .sidebar,
+      .content-shell,
+      .ad-slot,
+      .empty-state,
+      .site-footer {
+        border-radius: var(--radius-xl);
+      }
+
+      .sidebar {
+        position: sticky;
+        top: 96px;
+        padding: 14px;
+      }
+
+      .category-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+      }
+
+      .category-link {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        width: 100%;
+        padding: 14px 14px;
+        border: 0;
+        border-radius: var(--radius-sm);
+        background: transparent;
+        color: var(--muted);
+        text-align: left;
+        cursor: pointer;
+      }
+
+      .category-link svg {
+        width: 22px;
+        height: 22px;
+        flex: none;
+      }
+
+      .category-link.is-active {
+        background: var(--accent-soft);
+        color: var(--accent);
+        box-shadow: inset -4px 0 0 var(--accent);
+      }
+
+      .content-shell {
+        padding: 18px;
+      }
+
+      .content-intro {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 18px;
+        padding: 6px 6px 18px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .content-intro-copy {
+        min-width: 0;
+      }
+
+      .eyebrow {
+        margin: 0 0 6px;
+        color: var(--muted);
+        font-size: 0.8rem;
+        font-weight: 700;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+      }
+
+      .content-title {
+        margin: 0;
+        font-size: clamp(2rem, 3vw, 2.7rem);
+        line-height: 1.02;
+        letter-spacing: -0.04em;
+      }
+
+      .content-summary {
+        margin: 10px 0 0;
+        color: var(--muted);
+        max-width: 68ch;
+        line-height: 1.6;
+      }
+
+      .summary-meta {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+      }
+
+      .summary-chip {
+        padding: 8px 12px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        background: var(--bg-soft);
+        color: var(--muted);
+        font-size: 0.85rem;
+        font-weight: 600;
+      }
+
+      .section-block {
+        margin-top: 22px;
+        scroll-margin-top: 96px;
+      }
+
+      .section-heading {
+        position: sticky;
+        top: 92px;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 14px;
+        margin: 0 0 14px;
+        padding: 12px 14px;
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        background: rgba(17, 17, 17, 0.88);
+        backdrop-filter: blur(14px);
+      }
+
+      .section-heading-left {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        min-width: 0;
+      }
+
+      .section-heading svg {
+        width: 26px;
+        height: 26px;
+        color: var(--accent);
+        flex: none;
+      }
+
+      .section-heading h2 {
+        margin: 0;
+        font-size: 1.7rem;
+        letter-spacing: -0.03em;
+      }
+
+      .section-heading small {
+        color: var(--muted);
+      }
+
+      .section-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+      }
+
+      .shortcut-card {
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: var(--radius-lg);
+        background: var(--panel);
+      }
+
+      .shortcut-row {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: 16px;
+        align-items: center;
+        padding: 18px 18px;
+        border-top: 1px solid var(--line);
+      }
+
+      .shortcut-row:first-child {
+        border-top: 0;
+      }
+
+      .shortcut-main {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        min-width: 0;
+      }
+
+      .shortcut-copy {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex: none;
+        width: 36px;
+        height: 36px;
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        background: var(--bg-soft);
+        color: var(--muted);
+        cursor: pointer;
+        opacity: 0;
+        pointer-events: none;
+      }
+
+      .shortcut-row:hover .shortcut-copy,
+      .shortcut-row:focus-within .shortcut-copy {
+        opacity: 1;
+        pointer-events: auto;
+      }
+
+      .shortcut-copy svg,
+      .utility-button svg {
+        width: 20px;
+        height: 20px;
+      }
+
+      .shortcut-action {
+        margin: 0;
+        min-width: 0;
+        font-size: 1rem;
+        line-height: 1.4;
+      }
+
+      .shortcut-keys {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-items: flex-end;
+      }
+
+      .platform-line {
+        display: inline-flex;
+        gap: 6px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-end;
+        transition: opacity 160ms ease;
+      }
+
+      .platform-label {
+        display: inline-flex;
+        align-items: center;
+        min-height: 30px;
+        padding: 0 10px;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.03);
+        color: var(--muted);
+        font-size: 0.72rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .key-pill {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 34px;
+        padding: 6px 11px;
+        border: 1px solid var(--key-border);
+        border-bottom: 2px solid rgba(0, 0, 0, 0.55);
+        border-radius: 8px;
+        background: var(--key-bg);
+        color: var(--text);
+        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+        font-size: 0.85rem;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+        box-shadow:
+          inset 0 1px 0 rgba(255, 255, 255, 0.06),
+          0 2px 6px rgba(0, 0, 0, 0.22);
+        transition: transform 160ms ease, background-color 160ms ease;
+      }
+
+      .key-pill:hover {
+        transform: scale(1.04);
+      }
+
+      .key-or {
+        color: var(--muted);
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .platform-line.is-dimmed {
+        opacity: var(--dimmed);
+      }
+
+      .platform-line.is-active {
+        opacity: 1;
+      }
+
+      .missing-pill {
+        border-style: dashed;
+        color: var(--muted);
+      }
+
+      .ad-slot {
+        display: grid;
+        place-items: center;
+        min-height: 90px;
+        margin: 20px 0;
+        color: var(--muted);
+        text-align: center;
+      }
+
+      .ad-slot strong {
+        display: block;
+        margin-bottom: 8px;
+        color: var(--text);
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        font-size: 0.76rem;
+      }
+
+      .ad-slot span {
+        display: inline-block;
+        padding: 10px 14px;
+        border: 1px dashed var(--line-strong);
+        border-radius: 999px;
+      }
+
+      .empty-state {
+        padding: 36px 22px;
+        text-align: center;
+      }
+
+      .empty-state h2 {
+        margin: 0 0 8px;
+      }
+
+      .empty-state p {
+        margin: 0;
+        color: var(--muted);
+      }
+
+      .site-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        margin-top: 18px;
+        padding: 18px 22px;
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+
+      .site-footer p {
+        margin: 0;
+        max-width: 68ch;
+        line-height: 1.5;
+      }
+
+      .toast {
+        position: fixed;
+        right: 18px;
+        bottom: 18px;
+        z-index: 50;
+        padding: 12px 14px;
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        background: rgba(17, 17, 17, 0.95);
+        color: var(--text);
+        box-shadow: var(--shadow);
+        transform: translateY(18px);
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 180ms ease, transform 180ms ease;
+      }
+
+      .toast.is-visible {
+        transform: translateY(0);
+        opacity: 1;
+      }
+
+      mark {
+        padding: 0 0.12em;
+        border-radius: 0.18em;
+        background: rgba(167, 139, 250, 0.28);
+        color: inherit;
+      }
+
+      @media (max-width: 1100px) {
+        .topbar {
+          grid-template-columns: 1fr;
+          gap: 14px;
+        }
+
+        .layout {
+          grid-template-columns: 1fr;
+        }
+
+        .sidebar {
+          position: static;
+          overflow-x: auto;
+        }
+
+        .category-nav {
+          flex-direction: row;
+          min-width: max-content;
+        }
+
+        .category-link {
+          width: auto;
+          white-space: nowrap;
+        }
+
+        .content-intro {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+
+        .summary-meta {
+          justify-content: flex-start;
+        }
+      }
+
+      @media (max-width: 860px) {
+        .page-shell {
+          width: min(100vw - 16px, 1440px);
+          padding-top: 8px;
+        }
+
+        .topbar {
+          padding: 14px;
+          border-radius: 24px;
+        }
+
+        .brand-mark {
+          font-size: 30px;
+        }
+
+        .os-toggle,
+        .utility-button {
+          width: 100%;
+        }
+
+        .utility-button {
+          justify-content: center;
+        }
+
+        .content-shell {
+          padding: 14px;
+        }
+
+        .section-heading {
+          top: 0;
+          position: relative;
+        }
+
+        .section-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .shortcut-row {
+          grid-template-columns: 1fr;
+          align-items: flex-start;
+        }
+
+        .shortcut-main {
+          justify-content: space-between;
+        }
+
+        .shortcut-copy {
+          opacity: 1;
+          pointer-events: auto;
+        }
+
+        .shortcut-keys {
+          align-items: flex-start;
+        }
+
+        .platform-line {
+          justify-content: flex-start;
+        }
+
+        .site-footer {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+      }
+
+      @media print {
+        :root {
+          --bg: #ffffff;
+          --bg-soft: #ffffff;
+          --panel: #ffffff;
+          --panel-strong: #ffffff;
+          --panel-muted: #ffffff;
+          --key-bg: #ffffff;
+          --line: rgba(0, 0, 0, 0.15);
+          --line-strong: rgba(0, 0, 0, 0.2);
+          --text: #000000;
+          --muted: #333333;
+          --accent: #000000;
+          --shadow: none;
+        }
+
+        html {
+          color-scheme: light;
+        }
+
+        body {
+          background: #ffffff;
+          color: #000000;
+          font-size: 10.5pt;
+        }
+
+        .skip-link,
+        .topbar,
+        .sidebar,
+        .status-bar,
+        .ad-slot,
+        .shortcut-copy,
+        .site-footer,
+        .toast {
+          display: none !important;
+        }
+
+        .page-shell,
+        .content-shell {
+          width: 100%;
+          margin: 0;
+          padding: 0;
+          border: 0;
+          background: transparent;
+          box-shadow: none;
+        }
+
+        .content-intro {
+          display: block;
+          padding: 0 0 16pt;
+          border-bottom: 1px solid var(--line);
+        }
+
+        .content-title {
+          font-size: 22pt;
+        }
+
+        .content-summary {
+          margin-top: 6pt;
+          max-width: none;
+        }
+
+        #sections-root {
+          column-count: 2;
+          column-gap: 18pt;
+          margin-top: 14pt;
+        }
+
+        .section-block {
+          break-inside: avoid;
+          margin-top: 0;
+          margin-bottom: 16pt;
+        }
+
+        .section-heading {
+          position: static;
+          margin-bottom: 8pt;
+          padding: 0 0 8pt;
+          border: 0;
+          border-bottom: 1px solid var(--line);
+          border-radius: 0;
+          background: transparent;
+          backdrop-filter: none;
+        }
+
+        .section-grid {
+          display: block;
+        }
+
+        .shortcut-card {
+          break-inside: avoid;
+          margin-bottom: 8pt;
+          border: 0;
+          border-radius: 0;
+          background: transparent;
+        }
+
+        .shortcut-row {
+          gap: 8pt;
+          padding: 8pt 0;
+          grid-template-columns: minmax(0, 1fr) auto;
+        }
+
+        .shortcut-keys {
+          gap: 4pt;
+          align-items: flex-end;
+        }
+
+        .key-pill,
+        .platform-label {
+          min-height: auto;
+          border-color: rgba(0, 0, 0, 0.18);
+          color: #000000;
+          box-shadow: none;
+        }
+
+        .platform-line.is-dimmed {
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a class="skip-link" href="#shortcut-sections">Skip to shortcuts</a>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand" aria-label="Canva Vault">
+          <div class="brand-mark">Canva Vault</div>
+        </div>
+        <label class="search-wrap">
+          <span class="sr-only">Search shortcuts</span>
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M11 4a7 7 0 1 0 4.39 12.45l4.08 4.08 1.41-1.41-4.08-4.08A7 7 0 0 0 11 4Zm0 2a5 5 0 1 1 0 10a5 5 0 0 1 0-10Z" fill="currentColor"/>
+          </svg>
+          <input id="search-input" class="search-input" type="search" placeholder="Search shortcuts..." autocomplete="off" />
+        </label>
+        <div class="os-toggle" role="group" aria-label="Preferred operating system">
+          <button type="button" class="os-button" data-os="mac" aria-pressed="false">Mac</button>
+          <button type="button" class="os-button" data-os="windows" aria-pressed="false">Windows</button>
+        </div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap">
+          <button type="button" class="utility-button" id="share-page">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M14 3h7v7h-2V6.41l-8.29 8.3-1.42-1.42 8.3-8.29H14V3ZM5 5h6v2H7v10h10v-4h2v6H5V5Z" fill="currentColor"/>
+            </svg>
+            Share
+          </button>
+          <button type="button" class="utility-button" id="print-page">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M7 3h10v4H7V3Zm10 18H7v-5h10v5Zm2-13a3 3 0 0 1 3 3v5h-3v-3H5v3H2v-5a3 3 0 0 1 3-3h14ZM9 18v1h6v-1H9Z" fill="currentColor"/>
+            </svg>
+            Download as PDF
+          </button>
+        </div>
+      </header>
+
+      <div class="status-bar">
+        <div id="search-status" aria-live="polite"></div>
+        <div><strong>Source:</strong> Canva Help Center keyboard shortcuts page</div>
+      </div>
+
+      <div id="ad-top-banner" class="ad-slot" data-size="728x90">
+        <div>
+          <strong>Ad Slot</strong>
+          <span>728 × 90 top banner</span>
+        </div>
+      </div>
+
+      <div class="layout">
+        <aside class="sidebar" aria-label="Shortcut sections">
+          <nav id="category-nav" class="category-nav"></nav>
+        </aside>
+
+        <section id="shortcut-sections" class="content-shell">
+          <div class="content-intro">
+            <div class="content-intro-copy">
+              <p class="eyebrow">Canva Keyboard Shortcut Reference</p>
+              <h1 class="content-title">Complete Canva shortcut guide for Mac and Windows</h1>
+              <p class="content-summary">
+                Search every published Canva shortcut, jump by section, copy any action, and print a clean two-column desk reference. Visual direction blends the supplied Figma wireframe with a denser section-based cheatsheet.
+              </p>
+            </div>
+            <div class="summary-meta">
+              <span class="summary-chip">Single file</span>
+              <span class="summary-chip">No framework</span>
+              <span class="summary-chip">Print-ready</span>
+              <span class="summary-chip">Strict Canva source</span>
+            </div>
+          </div>
+
+          <div id="empty-state" class="empty-state" hidden>
+            <h2>No matching shortcuts</h2>
+            <p>Try another action, key combo, or section name. Press Escape to clear search.</p>
+          </div>
+
+          <div id="sections-root"></div>
+        </section>
+      </div>
+
+      <div id="ad-bottom-banner" class="ad-slot" data-size="728x90">
+        <div>
+          <strong>Ad Slot</strong>
+          <span>728 × 90 bottom banner</span>
+        </div>
+      </div>
+
+      <footer class="site-footer">
+        <p>
+          Canva Vault uses only shortcut content published on Canva’s Help Center page for keyboard shortcuts. Some Windows values are omitted in Canva’s own table; those rows are shown as “Not listed” rather than guessed.
+        </p>
+        <p>Press <strong>Esc</strong> to clear search. Use the print button for a clean PDF cheat sheet.</p>
+      </footer>
+    </div>
+
+    <div class="toast" id="toast" aria-live="polite"></div>
+
+    <script>
+      const CATEGORY_ORDER = [
+        "Basic",
+        "Elements",
+        "Text",
+        "Video",
+        "Zoom",
+        "Page view",
+        "Comments",
+        "Desktop app"
+      ];
+
+      const CATEGORY_META = {
+        "Basic": {
+          title: "General",
+          icon: '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 3v6H3V9a6 6 0 0 1 6-6Zm6 0a6 6 0 0 1 6 6v0h-6V3ZM3 15v0h6v6a6 6 0 0 1-6-6Zm12 6v-6h6a6 6 0 0 1-6 6ZM9 9v6H3V9h6Zm12 0v6h-6V9h6Zm-6 0v6H9V9h6Z" fill="currentColor"/></svg>'
+        },
+        "Elements": {
+          title: "Elements",
+          icon: '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 4h7v7H4V4Zm9 0h7v7h-7V4ZM4 13h7v7H4v-7Zm9 0h7v7h-7v-7Z" fill="currentColor"/></svg>'
+        },
+        "Text": {
+          title: "Text",
+          icon: '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 5h16v3h-2V7h-5v10h2v2H9v-2h2V7H6v1H4V5Z" fill="currentColor"/></svg>'
+        },
+        "Video": {
+          title: "Video",
+          icon: '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 6h11a2 2 0 0 1 2 2v1.4l3.45-2A1 1 0 0 1 22 8.26v7.48a1 1 0 0 1-1.55.86l-3.45-2V16a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2Z" fill="currentColor"/></svg>'
+        },
+        "Zoom": {
+          title: "Zoom",
+          icon: '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M11 4a7 7 0 1 0 4.39 12.45l4.08 4.08 1.41-1.41-4.08-4.08A7 7 0 0 0 11 4Zm0 3a1 1 0 0 1 1 1v2h2a1 1 0 1 1 0 2h-2v2a1 1 0 1 1-2 0v-2H8a1 1 0 1 1 0-2h2V8a1 1 0 0 1 1-1Z" fill="currentColor"/></svg>'
+        },
+        "Page view": {
+          title: "Page view",
+          icon: '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 3h8l4 4v14H6V3Zm8 1.5V8h3.5L14 4.5ZM8 11h8v2H8v-2Zm0 4h8v2H8v-2Z" fill="currentColor"/></svg>'
+        },
+        "Comments": {
+          title: "Comments",
+          icon: '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 5h16a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H9l-5 4v-4H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z" fill="currentColor"/></svg>'
+        },
+        "Desktop app": {
+          title: "Desktop app",
+          icon: '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 5h16a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-5v2h3v2H6v-2h3v-2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z" fill="currentColor"/></svg>'
+        }
+      };
+
+      const RAW_SHORTCUTS = [
+        { action: "Undo", mac: "⌘ + Z", windows: "Ctrl + Z", category: "Basic" },
+        { action: "Redo", mac: "⌘ + Y", windows: "Ctrl + Y", category: "Basic" },
+        { action: "Save", mac: "⌘ + S", windows: "Ctrl + S", category: "Basic" },
+        { action: "Select all", mac: "⌘ + A", windows: "Ctrl + A", category: "Basic" },
+        { action: "Show or hide sidebar", mac: "⌘ + /", windows: "Ctrl + /", category: "Basic" },
+        { action: "Add text", mac: "T", windows: "T", category: "Basic" },
+        { action: "Add rectangle", mac: "R", windows: "R", category: "Basic" },
+        { action: "Add line", mac: "L", windows: "L", category: "Basic" },
+        { action: "Add circle", mac: "C", windows: "C", category: "Basic" },
+        { action: "Add link", mac: "⌘ + K", windows: "Ctrl + K", category: "Basic" },
+        { action: "Add emoji (Canva Docs and comments only)", mac: "Shift + ;", windows: "Win + ;", category: "Basic" },
+        { action: "Add empty page", mac: "⌘ + Return", windows: "Ctrl + Enter", category: "Basic" },
+        { action: "Delete empty page", mac: "⌘ + Delete", windows: "Ctrl + Backspace", category: "Basic" },
+        { action: "Navigate to toolbar", mac: "⌘ + F1", windows: "Ctrl + F1", category: "Basic" },
+        { action: "Skip to canvas", mac: "⌘ + F2", windows: "Ctrl + F2", category: "Basic" },
+        { action: "Quick actions shortcut", mac: "/ or ⌘ + E", windows: "/ or Ctrl + E", category: "Basic" },
+
+        { action: "Delete selected elements", mac: "Delete", windows: "Backspace or Delete", category: "Elements" },
+        { action: "Group elements", mac: "⌘ + G", windows: "Ctrl + G", category: "Elements" },
+        { action: "Ungroup elements", mac: "⌘ + Shift + G", windows: "Ctrl + Shift + G", category: "Elements" },
+        { action: "Lock element", mac: "⌥ + Shift + L", windows: "Alt + Shift + L", category: "Elements" },
+        { action: "Justify elements-level", mac: "⌘ + Shift + J", windows: "Ctrl + Shift + J", category: "Elements" },
+        { action: "Arrange elements forward", mac: "⌘ + ]", windows: "Ctrl + ]", category: "Elements" },
+        { action: "Arrange elements backward", mac: "⌘ + [", windows: "Ctrl + [", category: "Elements" },
+        { action: "Arrange elements to front", mac: "⌥ + ⌘ + ]", windows: "Alt + Ctrl + ]", category: "Elements" },
+        { action: "Arrange elements to back", mac: "⌥ + ⌘ + [", windows: "Alt + Ctrl + [", category: "Elements" },
+        { action: "Tidy up elements", mac: "Shift + ⌘ + T", windows: "Alt + Shift + T", category: "Elements" },
+        { action: "Select next/previous elements", mac: "Tab or Shift + Tab", windows: "Tab or Shift + Tab", category: "Elements" },
+        { action: "Move left (small)", mac: "Arrow Left", windows: "", category: "Elements" },
+        { action: "Move right (small)", mac: "Arrow Right", windows: "", category: "Elements" },
+        { action: "Move up (small)", mac: "Arrow Up", windows: "", category: "Elements" },
+        { action: "Move down (small)", mac: "Arrow Down", windows: "", category: "Elements" },
+        { action: "Move left (large)", mac: "Shift + Arrow Left", windows: "", category: "Elements" },
+        { action: "Move right (large)", mac: "Shift + Arrow Right", windows: "", category: "Elements" },
+        { action: "Move up (large)", mac: "Shift + Arrow Up", windows: "", category: "Elements" },
+        { action: "Move down (large)", mac: "Shift + Arrow Down", windows: "", category: "Elements" },
+        { action: "Rotate left (small)", mac: ",", windows: "", category: "Elements" },
+        { action: "Rotate right (small)", mac: ".", windows: "", category: "Elements" },
+        { action: "Rotate left (large)", mac: "Shift + ,", windows: "", category: "Elements" },
+        { action: "Rotate right (large)", mac: "Shift + .", windows: "", category: "Elements" },
+        { action: "Resize left (small)", mac: "⌘ + Arrow Left", windows: "", category: "Elements" },
+        { action: "Resize right (small)", mac: "⌘ + Arrow Right", windows: "", category: "Elements" },
+        { action: "Resize up (small)", mac: "⌘ + Arrow Up", windows: "", category: "Elements" },
+        { action: "Resize down (small)", mac: "⌘ + Arrow Down", windows: "", category: "Elements" },
+        { action: "Resize left (large)", mac: "Shift + ⌘ + Arrow Left", windows: "", category: "Elements" },
+        { action: "Resize right (large)", mac: "Shift + ⌘ + Arrow Right", windows: "", category: "Elements" },
+        { action: "Resize up (large)", mac: "Shift + ⌘ + Arrow Up", windows: "", category: "Elements" },
+        { action: "Resize down (large)", mac: "Shift + ⌘ + Arrow Down", windows: "", category: "Elements" },
+
+        { action: "Open font menu", mac: "Shift + ⌘ + F", windows: "Shift + Ctrl + F", category: "Text" },
+        { action: "Find and replace", mac: "⌘ + F", windows: "Ctrl + F", category: "Text" },
+        { action: "Bold text", mac: "⌘ + B", windows: "Ctrl + B", category: "Text" },
+        { action: "Italicize text", mac: "⌘ + I", windows: "Ctrl + I", category: "Text" },
+        { action: "Underline", mac: "⌘ + U", windows: "Ctrl + U", category: "Text" },
+        { action: "Uppercase", mac: "Shift + ⌘ + K", windows: "Shift + Ctrl + K", category: "Text" },
+        { action: "Left align", mac: "Shift + ⌘ + L", windows: "Shift + Ctrl + L", category: "Text" },
+        { action: "Center align", mac: "Shift + ⌘ + C", windows: "Shift + Ctrl + C", category: "Text" },
+        { action: "Right align", mac: "Shift + ⌘ + R", windows: "Shift + Ctrl + R", category: "Text" },
+        { action: "Decrease font size by one", mac: "Shift + ⌘ + ,", windows: "Shift + Ctrl + ,", category: "Text" },
+        { action: "Increase font size by one", mac: "Shift + ⌘ + .", windows: "Shift + Ctrl + .", category: "Text" },
+        { action: "Decrease line spacing", mac: "⌥ + ⌘ + Down", windows: "Alt + Ctrl + Down", category: "Text" },
+        { action: "Increase line spacing", mac: "⌥ + ⌘ + Up", windows: "Alt + Ctrl + Up", category: "Text" },
+        { action: "Decrease letter spacing", mac: "⌥ + ⌘ + ,", windows: "Alt + Ctrl + ,", category: "Text" },
+        { action: "Increase letter spacing", mac: "⌥ + ⌘ + .", windows: "Alt + Ctrl + .", category: "Text" },
+        { action: "Anchor text to top", mac: "⌘ + Shift + H", windows: "Ctrl + Shift + H", category: "Text" },
+        { action: "Anchor text to middle", mac: "⌘ + Shift + M", windows: "Ctrl + Shift + M", category: "Text" },
+        { action: "Anchor text to bottom", mac: "⌘ + Shift + B", windows: "Ctrl + Shift + B", category: "Text" },
+        { action: "Numbered list", mac: "⌘ + Shift + 7", windows: "Ctrl + Shift + 7", category: "Text" },
+        { action: "Bulleted list", mac: "⌘ + Shift + 8", windows: "Ctrl + Shift + 8", category: "Text" },
+        { action: "Copy text style", mac: "⌥ + ⌘ + C", windows: "Alt + Ctrl + C", category: "Text" },
+        { action: "Paste text style", mac: "⌥ + ⌘ + V", windows: "Alt + Ctrl + V", category: "Text" },
+
+        { action: "Play or pause video", mac: "Space", windows: "Space", category: "Video" },
+        { action: "Mute or unmute video", mac: "M", windows: "M", category: "Video" },
+        { action: "Loop video", mac: "⌥ + ⌘ + L", windows: "Alt + Ctrl + L", category: "Video" },
+
+        { action: "Zoom in", mac: "⌘ + +", windows: "Ctrl + +", category: "Zoom" },
+        { action: "Zoom out", mac: "⌘ + -", windows: "Ctrl + -", category: "Zoom" },
+        { action: "Zoom to actual size", mac: "⌘ + 0", windows: "Ctrl + 0", category: "Zoom" },
+        { action: "Zoom to fit", mac: "⌥ + ⌘ + 0", windows: "Alt + Ctrl + 0", category: "Zoom" },
+        { action: "Zoom to fill", mac: "Shift + ⌘ + 0", windows: "Shift + Ctrl + 0", category: "Zoom" },
+
+        { action: "Show rulers and guides", mac: "Shift + R", windows: "Shift + R", category: "Page view" },
+        { action: "Scrolling view", mac: "⌥ + ⌘ + 1", windows: "Alt + Ctrl + 1", category: "Page view" },
+        { action: "Thumbnail view", mac: "⌥ + ⌘ + 2", windows: "Alt + Ctrl + 2", category: "Page view" },
+        { action: "Grid view", mac: "⌥ + ⌘ + 3", windows: "Alt + Ctrl + 3", category: "Page view" },
+        { action: "Presentation mode", mac: "⌥ + ⌘ + P", windows: "Alt + Ctrl + P", category: "Page view" },
+
+        { action: "Add comment", mac: "⌥ + ⌘ + N", windows: "Alt + Ctrl + N", category: "Comments" },
+        { action: "Add emoji to a comment", mac: "Shift + ;", windows: "Shift + ;", category: "Comments" },
+        { action: "Start new line in your comment", mac: "Return or Shift + Return", windows: "Enter or Shift + Enter", category: "Comments" },
+        { action: "Submit comment", mac: "⌘ + Return", windows: "Command + Enter", category: "Comments" },
+
+        { action: "Quit the whole Canva app", mac: "⌘ + Q", windows: "Alt + F4", category: "Desktop app" },
+        { action: "Reload the whole app", mac: "⌘ + R", windows: "Ctrl + R", category: "Desktop app" },
+        { action: "Enter full-screen mode", mac: "⌃ + ⌘ + F", windows: "", category: "Desktop app" },
+        { action: "Close the current tab", mac: "⌘ + W", windows: "Ctrl + W", category: "Desktop app" },
+        { action: "Select next tab", mac: "⌥ + ⌘ + Right", windows: "Ctrl + PageDown or Ctrl + Tab", category: "Desktop app" },
+        { action: "Select previous tab", mac: "⌥ + ⌘ + Left", windows: "Ctrl + PageUp or Ctrl + Shift + Tab", category: "Desktop app" },
+        { action: "Re-open last closed tab", mac: "⌘ + Shift + T", windows: "Ctrl + Shift + T", category: "Desktop app" },
+        { action: "Create new design", mac: "⌘ + T", windows: "Ctrl + T", category: "Desktop app" },
+        { action: "Switch tabs to focus on a design tab from 1-8", mac: "⌘ + 1...8", windows: "Ctrl + 1...8", category: "Desktop app" },
+        { action: "Switch to the last tab", mac: "⌘ + 9", windows: "Ctrl + 9", category: "Desktop app" },
+        { action: "Open the Settings page", mac: "⌘ + ,", windows: "", category: "Desktop app" },
+        { action: "Open the Home page", mac: "⌘ + Shift + H", windows: "Ctrl + Shift + H", category: "Desktop app" },
+        { action: "Zoom in app interface", mac: "⌘ + Shift + +", windows: "Ctrl + Shift + +", category: "Desktop app" },
+        { action: "Zoom out app interface", mac: "⌘ + Shift + -", windows: "Ctrl + Shift + -", category: "Desktop app" },
+        { action: "Reset app interface scaling to default", mac: "Shift + ⌘ + 0", windows: "", category: "Desktop app" },
+        { action: "Close window", mac: "Shift + ⌘ + W", windows: "Alt + F4", category: "Desktop app" }
+      ];
+
+      const SHORTCUTS = RAW_SHORTCUTS.map((shortcut) => ({
+        ...shortcut,
+        tags: buildTags(shortcut)
+      }));
+
+      const state = {
+        query: "",
+        preferredOS: "mac",
+        activeCategory: CATEGORY_ORDER[0]
+      };
+
+      function buildTags(shortcut) {
+        const combined = [
+          shortcut.action,
+          shortcut.category,
+          shortcut.mac,
+          shortcut.windows
+        ].join(" ").toLowerCase();
+
+        const normalized = combined
+          .replace(/[⌘⌥⌃]/g, " ")
+          .replace(/\.\.\./g, " ")
+          .replace(/[^\w/+ -]+/g, " ");
+
+        const base = normalized
+          .split(/\s+/)
+          .filter(Boolean)
+          .filter((token) => token.length > 1 || token === "/" || token === "+");
+
+        const extra = {
+          "Basic": ["general", "editing", "toolbar", "canvas"],
+          "Elements": ["arrange", "position", "resize", "rotate", "move", "layer"],
+          "Text": ["font", "format", "align", "spacing", "list"],
+          "Video": ["playback", "media", "mute", "loop"],
+          "Zoom": ["canvas", "view", "magnify"],
+          "Page view": ["rulers", "guides", "grid", "presentation"],
+          "Comments": ["feedback", "comment", "discussion"],
+          "Desktop app": ["desktop", "app", "tab", "window"]
+        }[shortcut.category] || [];
+
+        return Array.from(new Set([...base, ...extra]));
+      }
+
+      function detectPreferredOS() {
+        const platform = (navigator.platform || "").toLowerCase();
+        return /mac|iphone|ipad|ipod/.test(platform) ? "mac" : "windows";
+      }
+
+      function escapeHTML(value) {
+        return String(value)
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;");
+      }
+
+      function escapeRegExp(value) {
+        return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      }
+
+      function highlightText(value, query) {
+        const safe = escapeHTML(value);
+        if (!query) return safe;
+        const pattern = new RegExp("(" + escapeRegExp(query) + ")", "ig");
+        return safe.replace(pattern, "<mark>$1</mark>");
+      }
+
+      function normalizeSearchValue(value) {
+        return value.toLowerCase().trim();
+      }
+
+      function matchesShortcut(shortcut, query) {
+        if (!query) return true;
+        const haystack = [
+          shortcut.action,
+          shortcut.category,
+          shortcut.mac,
+          shortcut.windows,
+          ...shortcut.tags
+        ].join(" ").toLowerCase();
+        return haystack.includes(query);
+      }
+
+      function splitIntoCards(items) {
+        if (!items.length) return [];
+        const midpoint = Math.ceil(items.length / 2);
+        return [items.slice(0, midpoint), items.slice(midpoint)].filter((part) => part.length);
+      }
+
+      function renderCombo(combo, query) {
+        if (!combo) {
+          return '<span class="key-pill missing-pill">Not listed</span>';
+        }
+
+        return combo
+          .split(/\s+or\s+/i)
+          .map((segment) => segment.trim())
+          .map((segment, index) => {
+            const keys = segment.split(/\s+\+\s+/).map((part) => {
+              return '<span class="key-pill">' + highlightText(part.trim(), query) + "</span>";
+            }).join("");
+            return (index ? '<span class="key-or">or</span>' : "") + keys;
+          })
+          .join("");
+      }
+
+      function renderShortcutRow(shortcut) {
+        const activeOS = state.preferredOS;
+        const copyText = shortcut.action + " - Mac: " + (shortcut.mac || "Not listed") + " | Windows: " + (shortcut.windows || "Not listed");
+        return `
+          <div class="shortcut-row">
+            <div class="shortcut-main">
+              <p class="shortcut-action">${highlightText(shortcut.action, state.query)}</p>
+              <button
+                type="button"
+                class="shortcut-copy"
+                data-copy="${escapeHTML(copyText)}"
+                aria-label="Copy ${escapeHTML(shortcut.action)} shortcut"
+                title="Copy shortcut"
+              >
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M9 9V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-4v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h4Zm2-4v4a2 2 0 0 1 2 2v2h6V5h-8Zm2 6H5v8h8v-8Z" fill="currentColor"/>
+                </svg>
+              </button>
+            </div>
+            <div class="shortcut-keys">
+              <div class="platform-line ${activeOS === "mac" ? "is-active" : "is-dimmed"}">
+                <span class="platform-label">Mac</span>
+                ${renderCombo(shortcut.mac, state.query)}
+              </div>
+              <div class="platform-line ${activeOS === "windows" ? "is-active" : "is-dimmed"}">
+                <span class="platform-label">Windows</span>
+                ${renderCombo(shortcut.windows, state.query)}
+              </div>
+            </div>
+          </div>
+        `;
+      }
+
+      function renderSection(section, index) {
+        const meta = CATEGORY_META[section.category];
+        const cards = splitIntoCards(section.items);
+
+        const sectionHTML = `
+          <section class="section-block" id="${slugify(section.category)}" data-category="${escapeHTML(section.category)}">
+            <div class="section-heading">
+              <div class="section-heading-left">
+                ${meta.icon}
+                <div>
+                  <h2>${escapeHTML(meta.title)}</h2>
+                  <small>${section.items.length} shortcut${section.items.length === 1 ? "" : "s"}</small>
+                </div>
+              </div>
+            </div>
+            <div class="section-grid">
+              ${cards.map((group) => `
+                <article class="shortcut-card">
+                  ${group.map(renderShortcutRow).join("")}
+                </article>
+              `).join("")}
+            </div>
+          </section>
+        `;
+
+        if (isMobileWidth() && index === 3) {
+          return `
+            <div id="ad-mobile-inline" class="ad-slot" data-size="300x250">
+              <div>
+                <strong>Ad Slot</strong>
+                <span>300 × 250 mobile inline</span>
+              </div>
+            </div>
+            ${sectionHTML}
+          `;
+        }
+
+        return sectionHTML;
+      }
+
+      function renderSections() {
+        const query = normalizeSearchValue(state.query);
+        const filtered = SHORTCUTS.filter((shortcut) => matchesShortcut(shortcut, query));
+        const groups = CATEGORY_ORDER.map((category) => ({
+          category,
+          items: filtered.filter((shortcut) => shortcut.category === category)
+        })).filter((group) => group.items.length);
+
+        const sectionsRoot = document.getElementById("sections-root");
+        const emptyState = document.getElementById("empty-state");
+
+        if (!groups.length) {
+          sectionsRoot.innerHTML = "";
+          emptyState.hidden = false;
+          updateSearchStatus(0);
+          updateActiveCategory();
+          return;
+        }
+
+        emptyState.hidden = true;
+        sectionsRoot.innerHTML = groups.map(renderSection).join("");
+        updateSearchStatus(filtered.length);
+        updateActiveCategory();
+      }
+
+      function renderNav() {
+        const nav = document.getElementById("category-nav");
+        nav.innerHTML = CATEGORY_ORDER.map((category) => {
+          const meta = CATEGORY_META[category];
+          const isActive = state.activeCategory === category;
+          return `
+            <button type="button" class="category-link ${isActive ? "is-active" : ""}" data-category="${escapeHTML(category)}">
+              ${meta.icon}
+              <span>${escapeHTML(meta.title)}</span>
+            </button>
+          `;
+        }).join("");
+      }
+
+      function updateSearchStatus(count) {
+        const status = document.getElementById("search-status");
+        const visible = count + " shortcut" + (count === 1 ? "" : "s");
+        status.innerHTML = state.query
+          ? "<strong>" + visible + "</strong> match “" + escapeHTML(state.query) + "”."
+          : "<strong>" + visible + "</strong> loaded across " + CATEGORY_ORDER.length + " sections.";
+      }
+
+      function updateMeta() {
+        const currentURL = window.location.href;
+        const ogUrl = document.querySelector('meta[property="og:url"]');
+        const canonical = document.querySelector('link[rel="canonical"]');
+        if (ogUrl) ogUrl.setAttribute("content", currentURL);
+        if (canonical) canonical.setAttribute("href", currentURL);
+      }
+
+      function buildStructuredData() {
+        return {
+          "@context": "https://schema.org",
+          "@type": "HowTo",
+          name: "Canva Keyboard Shortcuts — Complete Cheat Sheet (Mac & Windows)",
+          description: "Canva Vault is a searchable and printable reference for Canva keyboard shortcuts on Mac and Windows.",
+          step: CATEGORY_ORDER.map((category) => ({
+            "@type": "HowToStep",
+            name: category,
+            text: SHORTCUTS
+              .filter((shortcut) => shortcut.category === category)
+              .map((shortcut) => shortcut.action + ": Mac " + (shortcut.mac || "Not listed") + "; Windows " + (shortcut.windows || "Not listed"))
+              .join(" | ")
+          }))
+        };
+      }
+
+      function injectStructuredData() {
+        const script = document.createElement("script");
+        script.type = "application/ld+json";
+        script.textContent = JSON.stringify(buildStructuredData());
+        document.head.appendChild(script);
+      }
+
+      function slugify(value) {
+        return value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+      }
+
+      async function copyText(value) {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          await navigator.clipboard.writeText(value);
+          return true;
+        }
+
+        const textarea = document.createElement("textarea");
+        textarea.value = value;
+        textarea.setAttribute("readonly", "readonly");
+        textarea.style.position = "absolute";
+        textarea.style.left = "-9999px";
+        document.body.appendChild(textarea);
+        textarea.select();
+        const copied = document.execCommand("copy");
+        textarea.remove();
+        return copied;
+      }
+
+      let toastTimer = 0;
+      function showToast(message) {
+        const toast = document.getElementById("toast");
+        toast.textContent = message;
+        toast.classList.add("is-visible");
+        window.clearTimeout(toastTimer);
+        toastTimer = window.setTimeout(() => {
+          toast.classList.remove("is-visible");
+        }, 1800);
+      }
+
+      function isMobileWidth() {
+        return window.innerWidth <= 860;
+      }
+
+      function updateOSToggle() {
+        document.querySelectorAll(".os-button").forEach((button) => {
+          const active = button.dataset.os === state.preferredOS;
+          button.classList.toggle("is-active", active);
+          button.setAttribute("aria-pressed", String(active));
+        });
+      }
+
+      function updateActiveCategory() {
+        const visibleSections = Array.from(document.querySelectorAll(".section-block"));
+        if (!visibleSections.length) {
+          renderNav();
+          return;
+        }
+
+        const pivot = 150;
+        let current = visibleSections[0].dataset.category;
+
+        visibleSections.forEach((section) => {
+          const rect = section.getBoundingClientRect();
+          if (rect.top <= pivot) current = section.dataset.category;
+        });
+
+        state.activeCategory = current;
+        renderNav();
+      }
+
+      function attachEvents() {
+        const searchInput = document.getElementById("search-input");
+
+        searchInput.addEventListener("input", (event) => {
+          state.query = event.target.value.trim();
+          renderSections();
+        });
+
+        searchInput.addEventListener("keydown", (event) => {
+          if (event.key === "Escape") {
+            event.preventDefault();
+            state.query = "";
+            searchInput.value = "";
+            renderSections();
+          }
+        });
+
+        document.querySelectorAll(".os-button").forEach((button) => {
+          button.addEventListener("click", () => {
+            state.preferredOS = button.dataset.os;
+            updateOSToggle();
+            renderSections();
+          });
+        });
+
+        document.getElementById("category-nav").addEventListener("click", (event) => {
+          const button = event.target.closest(".category-link");
+          if (!button) return;
+          const category = button.dataset.category;
+          const section = document.getElementById(slugify(category));
+          if (section) {
+            section.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+
+        document.addEventListener("click", async (event) => {
+          const copyButton = event.target.closest(".shortcut-copy");
+          if (copyButton) {
+            const ok = await copyText(copyButton.dataset.copy);
+            showToast(ok ? "Shortcut copied" : "Copy failed");
+          }
+        });
+
+        document.getElementById("share-page").addEventListener("click", async () => {
+          const ok = await copyText(window.location.href);
+          showToast(ok ? "Page URL copied" : "Share copy failed");
+        });
+
+        document.getElementById("print-page").addEventListener("click", () => {
+          window.print();
+        });
+
+        window.addEventListener("scroll", updateActiveCategory, { passive: true });
+        window.addEventListener("resize", renderSections);
+      }
+
+      function init() {
+        state.preferredOS = detectPreferredOS() || "mac";
+        updateOSToggle();
+        updateMeta();
+        injectStructuredData();
+        renderNav();
+        renderSections();
+        attachEvents();
+      }
+
+      init();
+    </script>
+  </body>
+</html>
+ml>
+teOSToggle();
+        updateMeta();
+        injectStructuredData();
+        renderNav();
+        renderSections();
+        attachEvents();
+      }
+
+      init();
+    </script>
+  </body>
+</html>

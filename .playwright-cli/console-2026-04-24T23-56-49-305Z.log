@@ -1,0 +1,1 @@
+[   58435ms] [ERROR] [JavaScript Error: "Error: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]" {file: "debugger eval code" line: 7445}] @ debugger eval code:7445
