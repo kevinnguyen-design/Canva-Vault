@@ -14,72 +14,16 @@
       content="Browse Canva shortcuts by section, switch between Mac and Windows, search instantly, and print a clean desk reference."
     />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://canva-vault.netlify.app/" />
+    <meta property="og:url" content="" />
     <meta property="og:site_name" content="Canva Vault" />
-    <meta property="og:image" content="https://canva-vault.netlify.app/og-preview.svg" />
-    <meta property="og:image:type" content="image/svg+xml" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Canva Keyboard Shortcuts — Complete Cheat Sheet (Mac &amp; Windows)" />
     <meta
       name="twitter:description"
       content="Canva Vault is a searchable, printable cheat sheet for Canva keyboard shortcuts on Mac and Windows."
     />
-    <meta name="twitter:image" content="https://canva-vault.netlify.app/og-preview.svg" />
-    <link rel="canonical" href="https://canva-vault.netlify.app/" />
+    <link rel="canonical" href="" />
     <link rel="icon" type="image/png" href="favicon.png" />
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "Canva Keyboard Shortcuts — Complete Cheat Sheet (Mac & Windows)",
-        "description": "Canva Vault is a searchable and printable reference for Canva keyboard shortcuts on Mac and Windows.",
-        "url": "https://canva-vault.netlify.app/",
-        "step": [
-          {
-            "@type": "HowToStep",
-            "name": "Basic",
-            "text": "General Canva shortcuts for editing, selection, page actions, and quick actions."
-          },
-          {
-            "@type": "HowToStep",
-            "name": "Elements",
-            "text": "Element shortcuts for grouping, locking, arranging, moving, resizing, and rotating."
-          },
-          {
-            "@type": "HowToStep",
-            "name": "Text",
-            "text": "Text shortcuts for formatting, alignment, spacing, and list controls."
-          },
-          {
-            "@type": "HowToStep",
-            "name": "Video",
-            "text": "Video shortcuts for playback, mute, and loop controls."
-          },
-          {
-            "@type": "HowToStep",
-            "name": "Zoom",
-            "text": "Zoom shortcuts for zoom in, zoom out, actual size, fit, and fill views."
-          },
-          {
-            "@type": "HowToStep",
-            "name": "Page view",
-            "text": "Page view shortcuts for rulers, guides, scrolling, thumbnails, grid, and presentation mode."
-          },
-          {
-            "@type": "HowToStep",
-            "name": "Comments",
-            "text": "Comment shortcuts for creating, editing, and submitting comments."
-          },
-          {
-            "@type": "HowToStep",
-            "name": "Desktop app",
-            "text": "Desktop app shortcuts for tabs, windows, app controls, and interface zoom."
-          }
-        ]
-      }
-    </script>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
@@ -104,7 +48,6 @@
         --radius-sm: 10px;
         --shell: min(1440px, calc(100vw - 28px));
         --sidebar-width: 280px;
-        --sticky-offset: 96px;
         --dimmed: 0.4;
       }
 
@@ -179,7 +122,7 @@
         top: 0;
         z-index: 30;
         display: grid;
-        grid-template-columns: auto minmax(280px, 1fr) auto;
+        grid-template-columns: auto minmax(280px, 1fr) auto auto;
         gap: 20px;
         align-items: center;
         padding: 14px 22px;
@@ -190,21 +133,6 @@
         backdrop-filter: blur(18px);
         box-shadow: var(--shadow);
       }
-
-      .topbar-brand-area {
-        display: flex;
-        align-items: center;
-        padding: 0;
-      }
-
-        .topbar-controls {
-          display: grid;
-          grid-template-columns: minmax(280px, 1fr) auto auto;
-          gap: 20px;
-          align-items: center;
-          padding: 0;
-          visibility: visible;
-        }
 
       .brand {
         display: flex;
@@ -347,7 +275,7 @@
 
       .sidebar {
         position: sticky;
-        top: var(--sticky-offset);
+        top: 96px;
         padding: 14px;
       }
 
@@ -411,7 +339,6 @@
 
       .content-title {
         margin: 0;
-        padding: 0.5em 0;
         font-size: clamp(2rem, 3vw, 2.7rem);
         line-height: 1.02;
         letter-spacing: -0.04em;
@@ -443,12 +370,12 @@
 
       .section-block {
         margin-top: 22px;
-        scroll-margin-top: var(--sticky-offset);
+        scroll-margin-top: 96px;
       }
 
       .section-heading {
         position: sticky;
-        top: calc(var(--sticky-offset) - 4px);
+        top: 92px;
         z-index: 10;
         display: flex;
         align-items: center;
@@ -488,7 +415,7 @@
 
       .section-grid {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: 16px;
       }
 
@@ -727,28 +654,8 @@
 
       @media (max-width: 1100px) {
         .topbar {
-          display: flex;
-          flex-direction: column;
-          gap: 0;
-          padding: 0;
-          overflow: hidden;
-          transition: border-radius 240ms ease;
-        }
-
-        .topbar-brand-area {
-          width: 100%;
-          justify-content: space-between;
-          padding: 14px 22px;
-        }
-
-        .topbar-controls {
           grid-template-columns: 1fr;
           gap: 14px;
-          width: 100%;
-          padding: 0 22px 14px;
-          transition: max-height 240ms ease, opacity 240ms ease, padding 240ms ease;
-          max-height: 500px;
-          opacity: 1;
         }
 
         .layout {
@@ -756,18 +663,8 @@
         }
 
         .sidebar {
-          position: sticky;
-          z-index: 20;
-          margin-bottom: 14px;
+          position: static;
           overflow-x: auto;
-        }
-
-        .topbar.is-collapsed .topbar-controls {
-          max-height: 0;
-          opacity: 0;
-          padding-bottom: 0;
-          visibility: hidden;
-          pointer-events: none;
         }
 
         .category-nav {
@@ -797,19 +694,8 @@
         }
 
         .topbar {
-          border-radius: 24px;
-        }
-
-        .topbar.is-collapsed {
-          border-radius: 24px;
-        }
-
-        .topbar-brand-area {
           padding: 14px;
-        }
-
-        .topbar-controls {
-          padding: 0 14px 14px;
+          border-radius: 24px;
         }
 
         .brand-mark {
@@ -830,7 +716,8 @@
         }
 
         .section-heading {
-          display: none;
+          top: 0;
+          position: relative;
         }
 
         .section-grid {
@@ -928,7 +815,8 @@
         }
 
         #sections-root {
-          column-count: 1;
+          column-count: 2;
+          column-gap: 18pt;
           margin-top: 14pt;
         }
 
@@ -990,37 +878,33 @@
     <a class="skip-link" href="#shortcut-sections">Skip to shortcuts</a>
     <div class="page-shell">
       <header class="topbar">
-        <div class="topbar-brand-area">
-          <div class="brand" aria-label="Canva Vault">
-            <div class="brand-mark">Canva Vault</div>
-          </div>
+        <div class="brand" aria-label="Canva Vault">
+          <div class="brand-mark">Canva Vault</div>
         </div>
-        <div class="topbar-controls">
-          <label class="search-wrap">
-            <span class="sr-only">Search shortcuts</span>
+        <label class="search-wrap">
+          <span class="sr-only">Search shortcuts</span>
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M11 4a7 7 0 1 0 4.39 12.45l4.08 4.08 1.41-1.41-4.08-4.08A7 7 0 0 0 11 4Zm0 2a5 5 0 1 1 0 10a5 5 0 0 1 0-10Z" fill="currentColor"/>
+          </svg>
+          <input id="search-input" class="search-input" type="search" placeholder="Search shortcuts..." autocomplete="off" />
+        </label>
+        <div class="os-toggle" role="group" aria-label="Preferred operating system">
+          <button type="button" class="os-button" data-os="mac" aria-pressed="false">Mac</button>
+          <button type="button" class="os-button" data-os="windows" aria-pressed="false">Windows</button>
+        </div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap">
+          <button type="button" class="utility-button" id="share-page">
             <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <path d="M11 4a7 7 0 1 0 4.39 12.45l4.08 4.08 1.41-1.41-4.08-4.08A7 7 0 0 0 11 4Zm0 2a5 5 0 1 1 0 10a5 5 0 0 1 0-10Z" fill="currentColor"/>
+              <path d="M14 3h7v7h-2V6.41l-8.29 8.3-1.42-1.42 8.3-8.29H14V3ZM5 5h6v2H7v10h10v-4h2v6H5V5Z" fill="currentColor"/>
             </svg>
-            <input id="search-input" class="search-input" type="search" placeholder="Search shortcuts..." autocomplete="off" />
-          </label>
-          <div class="os-toggle" role="group" aria-label="Preferred operating system">
-            <button type="button" class="os-button" data-os="mac" aria-pressed="false">Mac</button>
-            <button type="button" class="os-button" data-os="windows" aria-pressed="false">Windows</button>
-          </div>
-          <div style="display:flex;gap:10px;flex-wrap:wrap">
-            <button type="button" class="utility-button" id="share-page">
-              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <path d="M14 3h7v7h-2V6.41l-8.29 8.3-1.42-1.42 8.3-8.29H14V3ZM5 5h6v2H7v10h10v-4h2v6H5V5Z" fill="currentColor"/>
-              </svg>
-              Share
-            </button>
-            <button type="button" class="utility-button" id="print-page">
-              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <path d="M7 3h10v4H7V3Zm10 18H7v-5h10v5Zm2-13a3 3 0 0 1 3 3v5h-3v-3H5v3H2v-5a3 3 0 0 1 3-3h14ZM9 18v1h6v-1H9Z" fill="currentColor"/>
-              </svg>
-              Download as PDF
-            </button>
-          </div>
+            Share
+          </button>
+          <button type="button" class="utility-button" id="print-page">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M7 3h10v4H7V3Zm10 18H7v-5h10v5Zm2-13a3 3 0 0 1 3 3v5h-3v-3H5v3H2v-5a3 3 0 0 1 3-3h14ZM9 18v1h6v-1H9Z" fill="currentColor"/>
+            </svg>
+            Download as PDF
+          </button>
         </div>
       </header>
 
@@ -1044,7 +928,17 @@
         <section id="shortcut-sections" class="content-shell">
           <div class="content-intro">
             <div class="content-intro-copy">
+              <p class="eyebrow">Canva Keyboard Shortcut Reference</p>
               <h1 class="content-title">Complete Canva shortcut guide for Mac and Windows</h1>
+              <p class="content-summary">
+                Search every published Canva shortcut, jump by section, copy any action, and print a clean two-column desk reference. Visual direction blends the supplied Figma wireframe with a denser section-based cheatsheet.
+              </p>
+            </div>
+            <div class="summary-meta">
+              <span class="summary-chip">Single file</span>
+              <span class="summary-chip">No framework</span>
+              <span class="summary-chip">Print-ready</span>
+              <span class="summary-chip">Strict Canva source</span>
             </div>
           </div>
 
@@ -1241,8 +1135,7 @@
       const state = {
         query: "",
         preferredOS: "mac",
-        activeCategory: CATEGORY_ORDER[0],
-        lastScrollY: window.scrollY
+        activeCategory: CATEGORY_ORDER[0]
       };
 
       function buildTags(shortcut) {
@@ -1317,6 +1210,12 @@
         return haystack.includes(query);
       }
 
+      function splitIntoCards(items) {
+        if (!items.length) return [];
+        const midpoint = Math.ceil(items.length / 2);
+        return [items.slice(0, midpoint), items.slice(midpoint)].filter((part) => part.length);
+      }
+
       function renderCombo(combo, query) {
         if (!combo) {
           return '<span class="key-pill missing-pill">Not listed</span>';
@@ -1369,6 +1268,7 @@
 
       function renderSection(section, index) {
         const meta = CATEGORY_META[section.category];
+        const cards = splitIntoCards(section.items);
 
         const sectionHTML = `
           <section class="section-block" id="${slugify(section.category)}" data-category="${escapeHTML(section.category)}">
@@ -1377,13 +1277,16 @@
                 ${meta.icon}
                 <div>
                   <h2>${escapeHTML(meta.title)}</h2>
+                  <small>${section.items.length} shortcut${section.items.length === 1 ? "" : "s"}</small>
                 </div>
               </div>
             </div>
             <div class="section-grid">
-              <article class="shortcut-card">
-                ${section.items.map(renderShortcutRow).join("")}
-              </article>
+              ${cards.map((group) => `
+                <article class="shortcut-card">
+                  ${group.map(renderShortcutRow).join("")}
+                </article>
+              `).join("")}
             </div>
           </section>
         `;
@@ -1444,9 +1347,18 @@
 
       function updateSearchStatus(count) {
         const status = document.getElementById("search-status");
+        const visible = count + " shortcut" + (count === 1 ? "" : "s");
         status.innerHTML = state.query
-          ? "Results for “" + escapeHTML(state.query) + "”"
-          : "";
+          ? "<strong>" + visible + "</strong> match “" + escapeHTML(state.query) + "”."
+          : "<strong>" + visible + "</strong> loaded across " + CATEGORY_ORDER.length + " sections.";
+      }
+
+      function updateMeta() {
+        const currentURL = window.location.href;
+        const ogUrl = document.querySelector('meta[property="og:url"]');
+        const canonical = document.querySelector('link[rel="canonical"]');
+        if (ogUrl) ogUrl.setAttribute("content", currentURL);
+        if (canonical) canonical.setAttribute("href", currentURL);
       }
 
       function buildStructuredData() {
@@ -1467,9 +1379,6 @@
       }
 
       function injectStructuredData() {
-        if (document.querySelector('script[type="application/ld+json"]')) {
-          return;
-        }
         const script = document.createElement("script");
         script.type = "application/ld+json";
         script.textContent = JSON.stringify(buildStructuredData());
@@ -1511,32 +1420,6 @@
 
       function isMobileWidth() {
         return window.innerWidth <= 860;
-      }
-
-      function shouldUseCollapsingTopbar() {
-        return window.innerWidth <= 1100;
-      }
-
-      function syncStickyOffset() {
-        const topbar = document.querySelector(".topbar");
-        if (!topbar) return;
-        const offset = Math.ceil(topbar.getBoundingClientRect().height + 14);
-        document.documentElement.style.setProperty("--sticky-offset", offset + "px");
-      }
-
-      function updateTopbarState() {
-        const topbar = document.querySelector(".topbar");
-        if (!topbar) return;
-
-        if (!shouldUseCollapsingTopbar()) {
-          topbar.classList.remove("is-collapsed");
-          syncStickyOffset();
-          return;
-        }
-
-        const collapse = window.scrollY > state.lastScrollY && window.scrollY > 60;
-        topbar.classList.toggle("is-collapsed", collapse);
-        syncStickyOffset();
       }
 
       function updateOSToggle() {
@@ -1618,25 +1501,30 @@
           window.print();
         });
 
-        window.addEventListener("scroll", () => {
-          updateTopbarState();
-          state.lastScrollY = window.scrollY;
-          updateActiveCategory();
-        }, { passive: true });
-        window.addEventListener("resize", () => {
-          state.lastScrollY = window.scrollY;
-          updateTopbarState();
-          renderSections();
-        });
+        window.addEventListener("scroll", updateActiveCategory, { passive: true });
+        window.addEventListener("resize", renderSections);
       }
 
       function init() {
         state.preferredOS = detectPreferredOS() || "mac";
         updateOSToggle();
+        updateMeta();
         injectStructuredData();
         renderNav();
         renderSections();
-        updateTopbarState();
+        attachEvents();
+      }
+
+      init();
+    </script>
+  </body>
+</html>
+ml>
+teOSToggle();
+        updateMeta();
+        injectStructuredData();
+        renderNav();
+        renderSections();
         attachEvents();
       }
 
