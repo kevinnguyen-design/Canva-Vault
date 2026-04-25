@@ -176,17 +176,37 @@
         position: sticky;
         top: 0;
         z-index: 30;
-        display: grid;
-        grid-template-columns: auto minmax(280px, 1fr) auto auto;
-        gap: 20px;
-        align-items: center;
-        padding: 14px 22px;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        padding: 0;
         margin-bottom: 14px;
         border: 2px solid var(--line);
         border-radius: var(--radius-xl);
         background: rgba(17, 17, 17, 0.92);
         backdrop-filter: blur(18px);
         box-shadow: var(--shadow);
+        transition: border-radius 240ms ease, margin-bottom 240ms ease;
+        overflow: hidden;
+      }
+
+      .topbar-brand-area {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 14px 22px;
+        width: 100%;
+      }
+
+      .topbar-controls {
+        display: grid;
+        grid-template-columns: minmax(280px, 1fr) auto auto;
+        gap: 20px;
+        align-items: center;
+        padding: 0 22px 14px;
+        transition: max-height 240ms ease, opacity 240ms ease, padding 240ms ease;
+        max-height: 500px;
+        opacity: 1;
       }
 
       .brand {
@@ -709,7 +729,7 @@
       }
 
       @media (max-width: 1100px) {
-        .topbar {
+        .topbar-controls {
           grid-template-columns: 1fr;
           gap: 14px;
         }
@@ -719,8 +739,18 @@
         }
 
         .sidebar {
-          position: static;
+          position: sticky;
+          top: 86px;
+          z-index: 20;
+          margin-bottom: 14px;
           overflow-x: auto;
+        }
+
+        .topbar.is-collapsed .topbar-controls {
+          max-height: 0;
+          opacity: 0;
+          padding-bottom: 0;
+          pointer-events: none;
         }
 
         .category-nav {
@@ -750,8 +780,19 @@
         }
 
         .topbar {
-          padding: 14px;
           border-radius: 24px;
+        }
+
+        .topbar.is-collapsed {
+          border-radius: 999px;
+        }
+
+        .topbar-brand-area {
+          padding: 14px;
+        }
+
+        .topbar-controls {
+          padding: 0 14px 14px;
         }
 
         .brand-mark {
@@ -772,8 +813,15 @@
         }
 
         .section-heading {
-          top: 0;
-          position: relative;
+          top: 130px;
+        }
+
+        .topbar.is-collapsed + * + * + .layout .sidebar {
+           top: 66px;
+        }
+
+        .topbar.is-collapsed + * + * + .layout .section-heading {
+           top: 120px;
         }
 
         .section-grid {
@@ -933,33 +981,37 @@
     <a class="skip-link" href="#shortcut-sections">Skip to shortcuts</a>
     <div class="page-shell">
       <header class="topbar">
-        <div class="brand" aria-label="Canva Vault">
-          <div class="brand-mark">Canva Vault</div>
+        <div class="topbar-brand-area">
+          <div class="brand" aria-label="Canva Vault">
+            <div class="brand-mark">Canva Vault</div>
+          </div>
         </div>
-        <label class="search-wrap">
-          <span class="sr-only">Search shortcuts</span>
-          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <path d="M11 4a7 7 0 1 0 4.39 12.45l4.08 4.08 1.41-1.41-4.08-4.08A7 7 0 0 0 11 4Zm0 2a5 5 0 1 1 0 10a5 5 0 0 1 0-10Z" fill="currentColor"/>
-          </svg>
-          <input id="search-input" class="search-input" type="search" placeholder="Search shortcuts..." autocomplete="off" />
-        </label>
-        <div class="os-toggle" role="group" aria-label="Preferred operating system">
-          <button type="button" class="os-button" data-os="mac" aria-pressed="false">Mac</button>
-          <button type="button" class="os-button" data-os="windows" aria-pressed="false">Windows</button>
-        </div>
-        <div style="display:flex;gap:10px;flex-wrap:wrap">
-          <button type="button" class="utility-button" id="share-page">
+        <div class="topbar-controls">
+          <label class="search-wrap">
+            <span class="sr-only">Search shortcuts</span>
             <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <path d="M14 3h7v7h-2V6.41l-8.29 8.3-1.42-1.42 8.3-8.29H14V3ZM5 5h6v2H7v10h10v-4h2v6H5V5Z" fill="currentColor"/>
+              <path d="M11 4a7 7 0 1 0 4.39 12.45l4.08 4.08 1.41-1.41-4.08-4.08A7 7 0 0 0 11 4Zm0 2a5 5 0 1 1 0 10a5 5 0 0 1 0-10Z" fill="currentColor"/>
             </svg>
-            Share
-          </button>
-          <button type="button" class="utility-button" id="print-page">
-            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <path d="M7 3h10v4H7V3Zm10 18H7v-5h10v5Zm2-13a3 3 0 0 1 3 3v5h-3v-3H5v3H2v-5a3 3 0 0 1 3-3h14ZM9 18v1h6v-1H9Z" fill="currentColor"/>
-            </svg>
-            Download as PDF
-          </button>
+            <input id="search-input" class="search-input" type="search" placeholder="Search shortcuts..." autocomplete="off" />
+          </label>
+          <div class="os-toggle" role="group" aria-label="Preferred operating system">
+            <button type="button" class="os-button" data-os="mac" aria-pressed="false">Mac</button>
+            <button type="button" class="os-button" data-os="windows" aria-pressed="false">Windows</button>
+          </div>
+          <div style="display:flex;gap:10px;flex-wrap:wrap">
+            <button type="button" class="utility-button" id="share-page">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M14 3h7v7h-2V6.41l-8.29 8.3-1.42-1.42 8.3-8.29H14V3ZM5 5h6v2H7v10h10v-4h2v6H5V5Z" fill="currentColor"/>
+              </svg>
+              Share
+            </button>
+            <button type="button" class="utility-button" id="print-page">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M7 3h10v4H7V3Zm10 18H7v-5h10v5Zm2-13a3 3 0 0 1 3 3v5h-3v-3H5v3H2v-5a3 3 0 0 1 3-3h14ZM9 18v1h6v-1H9Z" fill="currentColor"/>
+              </svg>
+              Download as PDF
+            </button>
+          </div>
         </div>
       </header>
 
@@ -1180,7 +1232,8 @@
       const state = {
         query: "",
         preferredOS: "mac",
-        activeCategory: CATEGORY_ORDER[0]
+        activeCategory: CATEGORY_ORDER[0],
+        lastScrollY: window.scrollY
       };
 
       function buildTags(shortcut) {
@@ -1530,7 +1583,19 @@
           window.print();
         });
 
-        window.addEventListener("scroll", updateActiveCategory, { passive: true });
+        window.addEventListener("scroll", () => {
+          const topbar = document.querySelector(".topbar");
+          const currentScrollY = window.scrollY;
+
+          if (currentScrollY > state.lastScrollY && currentScrollY > 60) {
+            topbar.classList.add("is-collapsed");
+          } else {
+            topbar.classList.remove("is-collapsed");
+          }
+
+          state.lastScrollY = currentScrollY;
+          updateActiveCategory();
+        }, { passive: true });
         window.addEventListener("resize", renderSections);
       }
 
