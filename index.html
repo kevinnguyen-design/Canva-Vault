@@ -535,6 +535,16 @@
         transform: scale(1.04);
       }
 
+      .key-plus {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 4px;
+        color: var(--muted);
+        font-weight: 700;
+        font-size: 0.9rem;
+      }
+
       .key-or {
         color: var(--muted);
         font-size: 0.78rem;
@@ -1096,7 +1106,7 @@
         { action: "Add comment", mac: "⌥ + ⌘ + N", windows: "Alt + Ctrl + N", category: "Comments" },
         { action: "Add emoji to a comment", mac: "Shift + ;", windows: "Shift + ;", category: "Comments" },
         { action: "Start new line in your comment", mac: "Return or Shift + Return", windows: "Enter or Shift + Enter", category: "Comments" },
-        { action: "Submit comment", mac: "⌘ + Return", windows: "Command + Enter", category: "Comments" },
+        { action: "Submit comment", mac: "⌘ + Return", windows: "Ctrl + Enter", category: "Comments" },
 
         { action: "Quit the whole Canva app", mac: "⌘ + Q", windows: "Alt + F4", category: "Desktop app" },
         { action: "Reload the whole app", mac: "⌘ + R", windows: "Ctrl + R", category: "Desktop app" },
@@ -1216,7 +1226,7 @@
           .map((segment, index) => {
             const keys = segment.split(/\s+\+\s+/).map((part) => {
               return '<span class="key-pill">' + highlightText(part.trim(), query) + "</span>";
-            }).join("");
+            }).join('<span class="key-plus">+</span>');
             return (index ? '<span class="key-or">or</span>' : "") + keys;
           })
           .join("");
