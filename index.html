@@ -470,7 +470,7 @@
 
       .section-grid {
         display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-columns: 1fr;
         gap: 16px;
       }
 
@@ -870,8 +870,7 @@
         }
 
         #sections-root {
-          column-count: 2;
-          column-gap: 18pt;
+          column-count: 1;
           margin-top: 14pt;
         }
 
@@ -983,17 +982,7 @@
         <section id="shortcut-sections" class="content-shell">
           <div class="content-intro">
             <div class="content-intro-copy">
-              <p class="eyebrow">Canva Keyboard Shortcut Reference</p>
               <h1 class="content-title">Complete Canva shortcut guide for Mac and Windows</h1>
-              <p class="content-summary">
-                Search every published Canva shortcut, jump by section, copy any action, and print a clean two-column desk reference. Visual direction blends the supplied Figma wireframe with a denser section-based cheatsheet.
-              </p>
-            </div>
-            <div class="summary-meta">
-              <span class="summary-chip">Single file</span>
-              <span class="summary-chip">No framework</span>
-              <span class="summary-chip">Print-ready</span>
-              <span class="summary-chip">Strict Canva source</span>
             </div>
           </div>
 
@@ -1265,12 +1254,6 @@
         return haystack.includes(query);
       }
 
-      function splitIntoCards(items) {
-        if (!items.length) return [];
-        const midpoint = Math.ceil(items.length / 2);
-        return [items.slice(0, midpoint), items.slice(midpoint)].filter((part) => part.length);
-      }
-
       function renderCombo(combo, query) {
         if (!combo) {
           return '<span class="key-pill missing-pill">Not listed</span>';
@@ -1323,7 +1306,6 @@
 
       function renderSection(section, index) {
         const meta = CATEGORY_META[section.category];
-        const cards = splitIntoCards(section.items);
 
         const sectionHTML = `
           <section class="section-block" id="${slugify(section.category)}" data-category="${escapeHTML(section.category)}">
@@ -1332,16 +1314,13 @@
                 ${meta.icon}
                 <div>
                   <h2>${escapeHTML(meta.title)}</h2>
-                  <small>${section.items.length} shortcut${section.items.length === 1 ? "" : "s"}</small>
                 </div>
               </div>
             </div>
             <div class="section-grid">
-              ${cards.map((group) => `
-                <article class="shortcut-card">
-                  ${group.map(renderShortcutRow).join("")}
-                </article>
-              `).join("")}
+              <article class="shortcut-card">
+                ${section.items.map(renderShortcutRow).join("")}
+              </article>
             </div>
           </section>
         `;
@@ -1402,10 +1381,9 @@
 
       function updateSearchStatus(count) {
         const status = document.getElementById("search-status");
-        const visible = count + " shortcut" + (count === 1 ? "" : "s");
         status.innerHTML = state.query
-          ? "<strong>" + visible + "</strong> match “" + escapeHTML(state.query) + "”."
-          : "<strong>" + visible + "</strong> loaded across " + CATEGORY_ORDER.length + " sections.";
+          ? "Results for “" + escapeHTML(state.query) + "”"
+          : "";
       }
 
       function buildStructuredData() {
